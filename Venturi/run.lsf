@@ -1,0 +1,29 @@
+#!/bin/bash
+#
+#BSUB -J venturi_mixed    ### name of job 
+#BSUB -n 70               ### optional: min cores(,max_cores)
+#BSUB -M 2000             ### memory/core in Megabyte
+#BSUB -R span[ptile=28]   ### cores/Node , equal to -N for subbin
+#BSUB -W 24:00            ### run time of job (hour:)minute
+#BSUB -e err.log          ### name of error file
+#BSUB -o out.log          ### name of output file
+#BSUB -q rb_regular       ### run '> bqueues' to see options
+
+# set up the environment
+module purge
+module load openmpi/3.1.6
+module load gnu/5.3.0
+
+# Run SU2 make
+SU2_RUN="/home/hem1dev/Codes/SU2/bin"
+config="config_c6_cms_venturi.cfg"
+
+subbin -j venturi_mixed -n 70 -N 14 -m 1G -r 0:30 -M ompi,3.1.6-gnu-5.3.0 $SU2_RUN/SU2_CFD $config
+
+### -n 28: aantal cores
+### -N 14: aantal cores op een node
+### -m 2G: 2G aan memory gevraagd
+### -r 8:00: 8 hours runtime 
+### $: variable die je hebt gemaakt daarboven (SU2_RUN) 
+### .cfg file en run.lsf moeten in dezelfde directory staan, dus die kunnen wel in een aparte map.
+### maar SU2_CFD staat in de bin dus SU2_RUN moet je wel zo laten 
