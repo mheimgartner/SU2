@@ -1048,6 +1048,12 @@ void CConfig::SetPointersNull(void) {
   Kind_TimeNumScheme = EULER_IMPLICIT;
 
   Gas_Composition = nullptr;
+  Molecular_Weight = nullptr; 
+  Mu_Constant_Pointer = nullptr;
+  Mu_Ref_Pointer = nullptr;
+  Mu_Temperature_Ref_Pointer = nullptr;
+  Mu_S_Pointer = nullptr;
+  // Mu_ConstantND = nullptr;
 
 }
 
@@ -1113,6 +1119,8 @@ void CConfig::SetConfig_Options() {
   /*!\brief WEAKLY_COUPLED_HEAT_EQUATION \n DESCRIPTION: Enable heat equation for incompressible flows. \ingroup Config*/
   addBoolOption("WEAKLY_COUPLED_HEAT_EQUATION", Weakly_Coupled_Heat, NO);
 
+/*\brief MIXTURE \n DESCRIPTION: Mixture simulation \n DEFAULT: false \ingroup Config */
+  addBoolOption("MIXTURE", Mixture, false);
   /*\brief AXISYMMETRIC \n DESCRIPTION: Axisymmetric simulation \n DEFAULT: false \ingroup Config */
   addBoolOption("AXISYMMETRIC", Axisymmetric, false);
   /* DESCRIPTION: Add the gravity force */
@@ -1162,7 +1170,8 @@ void CConfig::SetConfig_Options() {
   /*!\brief THERMAL_EXPANSION_COEFF  \n DESCRIPTION: Thermal expansion coefficient (0.00347 K^-1 (air), used for Boussinesq approximation for liquids/non-ideal gases) \ingroup Config*/
   addDoubleOption("THERMAL_EXPANSION_COEFF", Thermal_Expansion_Coeff, 0.00347);
   /*!\brief MOLECULAR_WEIGHT \n DESCRIPTION: Molecular weight for an incompressible ideal gas (28.96 g/mol (air) default) \ingroup Config*/
-  addDoubleOption("MOLECULAR_WEIGHT", Molecular_Weight, 28.96);
+  // addDoubleOption("MOLECULAR_WEIGHT", Molecular_Weight[0], 28.96);
+  addDoubleListOption("MOLECULAR_WEIGHT", n_scalars, Molecular_Weight);
 
   ///* DESCRIPTION: Specify if Mutation++ library is used */
   /*--- Reading gas model as string or integer depending on TC library used. ---*/
@@ -1203,16 +1212,20 @@ void CConfig::SetConfig_Options() {
   /*--- Options related to Constant Viscosity Model ---*/
 
   /* DESCRIPTION: default value for AIR */
-  addDoubleOption("MU_CONSTANT", Mu_Constant , 1.716E-5);
+  addDoubleOption("MU_CONSTANT", Mu_Constant, 1.716E-5);
+  addDoubleListOption("MU_CONSTANT", n_scalars, Mu_Constant_Pointer);
 
   /*--- Options related to Sutherland Viscosity Model ---*/
 
   /* DESCRIPTION: Sutherland Viscosity Ref default value for AIR SI */
   addDoubleOption("MU_REF", Mu_Ref, 1.716E-5);
+  addDoubleListOption("MU_REF", n_scalars, Mu_Ref_Pointer);
   /* DESCRIPTION: Sutherland Temperature Ref, default value for AIR SI */
   addDoubleOption("MU_T_REF", Mu_Temperature_Ref, 273.15);
+  addDoubleListOption("MU_T_REF", n_scalars, Mu_Temperature_Ref_Pointer);
   /* DESCRIPTION: Sutherland constant, default value for AIR SI */
   addDoubleOption("SUTHERLAND_CONSTANT", Mu_S, 110.4);
+  addDoubleListOption("SUTHERLAND_CONSTANT", n_scalars, Mu_S_Pointer);
 
   /*--- Options related to Thermal Conductivity Model ---*/
 
@@ -3656,12 +3669,21 @@ void CConfig::SetPostprocessing(SU2_COMPONENT val_software, unsigned short val_i
   if (SystemMeasurements == US) {
 
     /* Correct the viscosities, if they contain the default SI values. */
-    if(fabs(Mu_Constant-1.716E-5) < 1.0E-15) Mu_Constant /= 47.88025898;
-    if(fabs(Mu_Ref-1.716E-5)      < 1.0E-15) Mu_Ref      /= 47.88025898;
+    for(unsigned short iVar = 0; iVar < n_scalars; iVar++){
+      if(fabs(Mu_Constant_Pointer[iVar]-1.716E-5) < 1.0E-15) Mu_Constant_Pointer[iVar] /= 47.88025898;
+
+      if(fabs(Mu_Ref_Pointer[iVar]-1.716E-5)      < 1.0E-15) Mu_Ref_Pointer[iVar]      /= 47.88025898;
+
+      /* Correct the values with temperature dimension, if they contain the default SI values. */
+      if(fabs(Mu_Temperature_Ref_Pointer[iVar]-273.15) < 1.0E-8) Mu_Temperature_Ref_Pointer[iVar] *= 1.8;
+      if(fabs(Mu_S_Pointer[iVar]-110.4)                < 1.0E-8) Mu_S_Pointer[iVar]               *= 1.8;
+    }
+    //if(fabs(Mu_Constant-1.716E-5) < 1.0E-15) Mu_Constant /= 47.88025898;
+    // if(fabs(Mu_Ref-1.716E-5)      < 1.0E-15) Mu_Ref      /= 47.88025898;
 
     /* Correct the values with temperature dimension, if they contain the default SI values. */
-    if(fabs(Mu_Temperature_Ref-273.15) < 1.0E-8) Mu_Temperature_Ref *= 1.8;
-    if(fabs(Mu_S-110.4)                < 1.0E-8) Mu_S               *= 1.8;
+    // if(fabs(Mu_Temperature_Ref-273.15) < 1.0E-8) Mu_Temperature_Ref *= 1.8;
+    // if(fabs(Mu_S-110.4)                < 1.0E-8) Mu_S               *= 1.8;
 
     /* Correct the thermal conductivity, if it contains the default SI value. */
     if(fabs(Kt_Constant-0.0257) < 1.0E-10) Kt_Constant *= 0.577789317;
@@ -7959,6 +7981,13 @@ CConfig::~CConfig(void) {
   delete [] Scalar_Clipping_Min;
   delete [] Scalar_Clipping_Max;
   delete [] Scalar_Init;
+
+  delete [] Molecular_Weight;
+  delete [] Mu_Constant_Pointer; 
+  delete [] Mu_Ref_Pointer;
+  delete [] Mu_Temperature_Ref_Pointer; 
+  delete [] Mu_S_Pointer; 
+  // delete [] Mu_ConstantND;
 
 }
 

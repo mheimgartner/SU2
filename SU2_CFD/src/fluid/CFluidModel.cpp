@@ -37,11 +37,14 @@
 #include "../../include/fluid/CPolynomialConductivityRANS.hpp"
 #include "../../include/fluid/CPolynomialViscosity.hpp"
 #include "../../include/fluid/CSutherland.hpp"
+#include "../../include/fluid/CFluidScalar.hpp"
 #include "../../include/fluid/CConstantDiffusivity.hpp"
 #include "../../include/fluid/CConstantSchmidtRANS.hpp"
 #include "../../include/fluid/CConstantSchmidt.hpp"
 
 void CFluidModel::SetLaminarViscosityModel(const CConfig* config) {
+ if(config->GetKind_Scalar_Model() == NONE){
+
   switch (config->GetKind_ViscosityModel()) {
     case VISCOSITYMODEL::CONSTANT:
       LaminarViscosity = unique_ptr<CConstantViscosity>(new CConstantViscosity(config->GetMu_ConstantND()));
@@ -61,6 +64,8 @@ void CFluidModel::SetLaminarViscosityModel(const CConfig* config) {
       SU2_MPI::Error("Viscosity model not available.", CURRENT_FUNCTION);
       break;
   }
+ }
+  else {} 
 }
 
 void CFluidModel::SetThermalConductivityModel(const CConfig* config) {

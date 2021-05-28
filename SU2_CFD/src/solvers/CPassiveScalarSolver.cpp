@@ -28,6 +28,7 @@
 
 #include "../../include/solvers/CPassiveScalarSolver.hpp"
 #include "../../include/variables/CPassiveScalarVariable.hpp"
+#include "../../include/fluid/CFluidScalar.hpp"
 #include "../../../Common/include/parallelization/omp_structure.hpp"
 #include "../../../Common/include/toolboxes/geometry_toolbox.hpp"
 
@@ -51,6 +52,8 @@ CPassiveScalarSolver::CPassiveScalarSolver(CGeometry *geometry,
  
   nVar     = 1;
   nPrimVar = 1;
+  //nVar = config->GetNScalars() - 1;
+  //nPrimVar = nVar;
 
   nPoint = geometry->GetnPoint();
   nPointDomain = geometry->GetnPointDomain();
@@ -246,6 +249,10 @@ void CPassiveScalarSolver::Preprocessing(CGeometry *geometry, CSolver **solver_c
   const bool limiter = (config->GetKind_SlopeLimit_Scalar() != NO_LIMITER) &&
                        (config->GetInnerIter() <= config->GetLimiterIter());
 
+  /*--- Set the primitive variables ---*/
+  
+  unsigned long ErrorCounter = SetPrimitive_Variables(solver_container, config, Output);
+
   /*--- Clear residual and system matrix, not needed for
    * reducer strategy as we write over the entire matrix. ---*/
   if (!ReducerStrategy && !Output) {
@@ -280,6 +287,64 @@ void CPassiveScalarSolver::Postprocessing(CGeometry *geometry, CSolver **solver_
 
 /*--- your postprocessing goes here ---*/
 
+}
+
+unsigned long CPassiveScalarSolver::SetPrimitive_Variables(CSolver **solver_container,
+                                                           CConfig *config,
+                                                           bool Output) {
+  
+  unsigned long iPoint, ErrorCounter = 0;
+  su2double Density, Temperature, lam_visc = 0.0, eddy_visc = 0.0, Cp;
+  unsigned short turb_model = config->GetKind_Turb_Model();
+  unsigned long n_not_in_domain = 0,global_table_misses=0;
+
+  for (iPoint = 0; iPoint < nPoint; iPoint++) {
+    
+    /*--- Retrieve the density, temperature, Cp, and laminar viscosity. ---*/
+
+    Density     = solver_container[FLOW_SOL]->GetNodes()->GetDensity(iPoint);
+    Cp          = solver_container[FLOW_SOL]->GetNodes()->GetSpecificHeatCp(iPoint);
+    Temperature = solver_container[FLOW_SOL]->GetNodes()->GetTemperature(iPoint);
+    lam_visc    = solver_container[FLOW_SOL]->GetNodes()->GetLaminarViscosity(iPoint);
+    
+    /*--- Retrieve the value of the kinetic energy (if needed) ---*/
+    
+    if (turb_model != NONE) {
+      eddy_visc = solver_container[TURB_SOL]->GetNodes()->GetmuT(iPoint);
+    }
+
+    /*--- Compute and store the mass diffusivity. ---*/
+
+    CFluidModel * fluid_model_local = solver_container[FLOW_SOL]->GetFluidModel();
+    // CFluidModel * fluid_model_local = solver_container[FLOW_SOL]->GetKind_Scalar_Model(); 
+    su2double * scalars = nodes->GetSolution(iPoint);
+
+    n_not_in_domain += fluid_model_local->SetTDState_T(Temperature, scalars);
+
+    for(int i_scalar = 0; i_scalar < config->GetNScalars(); ++i_scalar){
+      nodes->SetDiffusivity(iPoint, fluid_model_local->GetMassDiffusivity(), i_scalar);
+    }
+
+    /*--- Initialize the convective, source and viscous residual vector ---*/
+
+    if (!Output) LinSysRes.SetBlock_Zero(iPoint);
+
+  }
+  //SetNTableMisses(n_not_in_domain);
+/*--- Warning message about table misses ---*/
+
+  if (config->GetComm_Level() == COMM_FULL) {
+
+    SU2_MPI::Reduce(&n_not_in_domain, &global_table_misses, 1, MPI_UNSIGNED_LONG, MPI_SUM, MASTER_NODE, SU2_MPI::GetComm());
+
+    if (rank == MASTER_NODE) {
+      //if  (global_table_misses > 0) cout << "Warning: number of misses: " << global_table_misses << endl;
+      SetNTableMisses(global_table_misses);
+
+    } 
+  }
+  return ErrorCounter;
+  
 }
 
 void CPassiveScalarSolver::SetInitialCondition(CGeometry **geometry,

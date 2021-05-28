@@ -111,6 +111,7 @@ private:
   su2double StartTime;
   unsigned short SmoothNumGrid;           /*!< \brief Smooth the numerical grid. */
   bool ContinuousAdjoint,   /*!< \brief Flag to know if the code is solving an adjoint problem. */
+  Mixture, 
   Viscous,                  /*!< \brief Flag to know if the code is solving a viscous problem. */
   EquivArea,                /*!< \brief Flag to know if the code is going to compute and plot the equivalent area. */
   Engine,                   /*!< \brief Flag to know if the code is going to compute a problem with engine. */
@@ -789,7 +790,7 @@ private:
   Beta_Factor,          /*!< \brief Value of the epsilon^2 multiplier for Beta for the incompressible preconditioner. */
   Gas_Constant,         /*!< \brief Specific gas constant. */
   Gas_ConstantND,       /*!< \brief Non-dimensional specific gas constant. */
-  Molecular_Weight,     /*!< \brief Molecular weight of an incompressible ideal gas (g/mol). */
+  *Molecular_Weight,     /*!< \brief Molecular weight of an incompressible ideal gas (g/mol). */
   Specific_Heat_Cp,           /*!< \brief Specific heat at constant pressure. */
   Specific_Heat_CpND,         /*!< \brief Non-dimensional specific heat at constant pressure. */
   Specific_Heat_Cv,           /*!< \brief Specific heat at constant volume. */
@@ -808,15 +809,19 @@ private:
   Density_Critical,      /*!< \brief Critical Density for real fluid model.  */
   Acentric_Factor,       /*!< \brief Acentric Factor for real fluid model.  */
   Mu_Constant,           /*!< \brief Constant viscosity for ConstantViscosity model.  */
+  *Mu_Constant_Pointer,  /*!< \brief Constant viscosity for ConstantViscosity model.  */
   Mu_ConstantND,         /*!< \brief Non-dimensional constant viscosity for ConstantViscosity model.  */
   Kt_Constant,           /*!< \brief Constant thermal conductivity for ConstantConductivity model.  */
   Kt_ConstantND,         /*!< \brief Non-dimensional constant thermal conductivity for ConstantConductivity model.  */
   *Scalar_Init,          /*!< \brief Initial uniform value for scalar transport. */
   Mu_Ref,                /*!< \brief Reference viscosity for Sutherland model.  */
+  *Mu_Ref_Pointer,       /*!< \brief Reference viscosity for Sutherland model.  */
   Mu_RefND,              /*!< \brief Non-dimensional reference viscosity for Sutherland model.  */
   Mu_Temperature_Ref,    /*!< \brief Reference temperature for Sutherland model.  */
+  *Mu_Temperature_Ref_Pointer,   /*!< \brief Reference temperature for Sutherland model.  */
   Mu_Temperature_RefND,  /*!< \brief Non-dimensional reference temperature for Sutherland model.  */
   Mu_S,                  /*!< \brief Reference S for Sutherland model.  */
+  *Mu_S_Pointer,         /*!< \brief Reference S for Sutherland model.  */
   Mu_SND;                /*!< \brief Non-dimensional reference S for Sutherland model.  */
   array<su2double, N_POLY_COEFFS> CpPolyCoefficientsND{{0.0}};  /*!< \brief Definition of the non-dimensional temperature polynomial coefficients for specific heat Cp. */
   array<su2double, N_POLY_COEFFS> MuPolyCoefficientsND{{0.0}};  /*!< \brief Definition of the non-dimensional temperature polynomial coefficients for viscosity. */
@@ -1603,7 +1608,9 @@ public:
    * \brief Get the value of the molecular weight for an incompressible ideal gas (g/mol).
    * \return Value of the molecular weight for an incompressible ideal gas (g/mol).
    */
-  su2double GetMolecular_Weight(void) const { return Molecular_Weight; }
+  su2double GetMolecular_Weight(void) const { return Molecular_Weight[0]; }
+  su2double GetMolecular_Weight (unsigned short val_index) const { return Molecular_Weight [val_index]; }
+  //const su2double *GetMolecular_Weight(void) const { return Molecular_Weight; }
 
   /*!
    * \brief Get the value of specific heat at constant pressure.
@@ -3808,13 +3815,16 @@ public:
    * \brief Get the value of the constant viscosity.
    * \return Constant viscosity.
    */
-  su2double GetMu_Constant(void) const { return Mu_Constant; }
+  //su2double GetMu_Constant(void) const { return Mu_Constant; }
+  su2double GetMu_Constant(void) const { return Mu_Constant; } 
+  su2double GetMu_Constant(unsigned short val_index) const { return Mu_Constant_Pointer [val_index]; }
 
   /*!
    * \brief Get the value of the non-dimensional constant viscosity.
    * \return Non-dimensional constant viscosity.
    */
   su2double GetMu_ConstantND(void) const { return Mu_ConstantND; }
+  // su2double GetMu_ConstantND(unsigned short val_index) const { return Mu_ConstantND [val_index]; }
 
   /*!
    * \brief Get the value of the thermal conductivity.
@@ -3856,7 +3866,9 @@ public:
    * \brief Get the value of the reference viscosity for Sutherland model.
    * \return The reference viscosity.
    */
-  su2double GetMu_Ref(void) const { return Mu_Ref; }
+  // su2double GetMu_Ref(void) const { return Mu_Ref; }
+  su2double GetMu_Ref(void) const { return Mu_Ref; } 
+  su2double GetMu_Ref(unsigned short val_index) const { return Mu_Ref_Pointer [val_index]; }
 
   /*!
    * \brief Get the value of the non-dimensional reference viscosity for Sutherland model.
@@ -3868,7 +3880,9 @@ public:
    * \brief Get the value of the reference temperature for Sutherland model.
    * \return The reference temperature.
    */
+  // su2double GetMu_Temperature_Ref(void) const { return Mu_Temperature_Ref; }
   su2double GetMu_Temperature_Ref(void) const { return Mu_Temperature_Ref; }
+  su2double GetMu_Temperature_Ref(unsigned short val_index) const { return Mu_Temperature_Ref_Pointer [val_index]; }
 
   /*!
    * \brief Get the value of the non-dimensional reference temperature for Sutherland model.
@@ -3881,6 +3895,7 @@ public:
    * \return The reference S.
    */
   su2double GetMu_S(void) const { return Mu_S; }
+  su2double GetMu_S(unsigned short val_index) const { return Mu_S_Pointer [val_index]; }
 
   /*!
    * \brief Get the value of the non-dimensional reference S for Sutherland model.
@@ -3952,6 +3967,7 @@ public:
    * \brief Set the value of the non-dimensional constant viscosity.
    */
   void SetMu_ConstantND(su2double mu_const) { Mu_ConstantND = mu_const; }
+  // void SetMu_ConstantND(su2double mu_const, unsigned short val_index) { Mu_ConstantND[val_index] = mu_const; }
 
   /*!
    * \brief Set the value of the non-dimensional thermal conductivity.
@@ -6227,6 +6243,12 @@ public:
    * \return true if Viscous
    */
   bool GetViscous(void) const { return Viscous; }
+
+  /*!
+   * \brief Determines if problem involves a mixture
+   * \return true if Mixture
+   */
+  bool GetMixture(void) const { return Mixture; }
 
   /*!
    * \brief Provides the index of the solution in the container.

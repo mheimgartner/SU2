@@ -164,11 +164,14 @@ class CFluidModel {
    * \brief Get fluid dynamic viscosity.
    */
   virtual inline su2double GetLaminarViscosity() {
-    LaminarViscosity->SetViscosity(Temperature, Density);
-    Mu = LaminarViscosity->GetViscosity();
-    LaminarViscosity->SetDerViscosity(Temperature, Density);
-    dmudrho_T = LaminarViscosity->Getdmudrho_T();
-    dmudT_rho = LaminarViscosity->GetdmudT_rho();
+   if(false){ // find a way to apply config->GetKind_Scalar_Model()
+      LaminarViscosity->SetViscosity(Temperature, Density);
+      Mu = LaminarViscosity->GetViscosity();
+      LaminarViscosity->SetDerViscosity(Temperature, Density);
+      dmudrho_T = LaminarViscosity->Getdmudrho_T();
+      dmudT_rho = LaminarViscosity->GetdmudT_rho();
+    }
+    // dmudrho_T en dmuT_rho moeten hier ook een waarde krijgen uit SetTDState_T in CFluidScalar 
     return Mu;
   }
 
