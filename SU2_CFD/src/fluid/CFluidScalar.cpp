@@ -53,24 +53,24 @@ std::vector<su2double> CFluidScalar::massToMoleFractions(su2double* val_scalars)
 
 void CFluidScalar::SetLaminarViscosityModel(const CConfig* config) {
   switch (config->GetKind_ViscosityModel()) {
-    case CONSTANT_VISCOSITY:
+    case VISCOSITYMODEL::CONSTANT:
     // Build a list of LaminarViscosity pointers to be used in wilkeViscosity to get the species viscosities. 
       for (int iVar = 0; iVar < n_scalars; iVar++){
         LaminarViscosityPointers[iVar] = unique_ptr<CConstantViscosity>(new CConstantViscosity(config->GetMu_Constant(iVar)));
       }
       break;
-    case SUTHERLAND:
+    case VISCOSITYMODEL::SUTHERLAND:
       for (int iVar = 0; iVar < n_scalars; iVar++){
         LaminarViscosityPointers[iVar] = unique_ptr<CSutherland>(new CSutherland(config->GetMu_Ref(iVar), config->GetMu_Temperature_Ref(iVar), config->GetMu_S(iVar)));
       }
       break;
-    case POLYNOMIAL_VISCOSITY:
+    case VISCOSITYMODEL::POLYNOMIAL:
       for (int iVar = 0; iVar < n_scalars; iVar++){
         LaminarViscosityPointers[iVar] = unique_ptr<CPolynomialViscosity<N_POLY_COEFFS>>(
           new CPolynomialViscosity<N_POLY_COEFFS>(config->GetMu_PolyCoeffND()));
       }
       break;
-    case FLAMELET_VISC_MODEL:
+    case VISCOSITYMODEL::FLAMELET:
       /* do nothing. Viscosity is obtained from the table and set in setTDState_T */
       break;
     default:
