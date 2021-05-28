@@ -285,6 +285,9 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
       Pressure_Thermodynamic = auxFluidModel->GetPressure();
       config->SetPressure_Thermodynamic(Pressure_Thermodynamic);
     */
+
+      // ik heb if(mixture) even in de switch state gezet. Heeft allemaal te maken om een mogelijke oplossing
+      // te vinden voor SetTDState_T .... 
    
       if(mixture){
          //config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(config->GetMolecular_Weight()/1000.0));
@@ -497,9 +500,11 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
         break;
 
       case INC_IDEAL_GAS:
-        // fluidModel = new CIncIdealGas(Specific_Heat_CpND, Gas_ConstantND, Pressure_ThermodynamicND);
-        // fluidModel->SetTDState_T(Temperature_FreeStreamND);
-      
+        fluidModel = new CIncIdealGas(Specific_Heat_CpND, Gas_ConstantND, Pressure_ThermodynamicND);
+        fluidModel->SetTDState_T(Temperature_FreeStreamND);
+
+        // not sure if this is needed in order to fix that SetTDState_T in CPassiveScalarSolver points to CFluidScalar
+      /*
         if(mixture){
           fluidModel = new CFluidScalar(config,Pressure_Thermodynamic);
           fluidModel->SetTDState_T(Temperature_FreeStream, dummy_scalar);
@@ -508,7 +513,7 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
           fluidModel = new CIncIdealGas(Specific_Heat_CpND, Gas_ConstantND, Pressure_ThermodynamicND);
           fluidModel->SetTDState_T(Temperature_FreeStreamND);
         }
-      
+      */
         break;
 
       case INC_IDEAL_GAS_POLY:

@@ -9,6 +9,9 @@
 #include "../../include/fluid/CPolynomialViscosity.hpp"
 
 #include "../../include/fluid/CIncIdealGas.hpp"
+// not sure if I should pass in FluidModel, if FluidModel is initialised in CIncEulerSolver.cpp then it's not needed
+// but I was trying to get the calling f SetTDState_T to work by building an extra layer with if(mixture), such that 
+// the FluidModel is set in CFluidScalar. This is probably not the right solution... 
 
 // CFluidScalar::CFluidScalar(CConfig *config, CFluidModel *FluidModel, su2double value_pressure_operating) : CFluidModel(), FluidModel(FluidModel){
 CFluidScalar::CFluidScalar(CConfig *config, su2double value_pressure_operating) : CFluidModel() {
@@ -18,7 +21,6 @@ CFluidScalar::CFluidScalar(CConfig *config, su2double value_pressure_operating) 
 #endif
 
   n_scalars = config->GetNScalars(); 
-  // LaminarViscosityPointers[n_scalars]; 
   molarMasses.resize(n_scalars); 
   moleFractions.resize(n_scalars);
   laminarViscosity.resize(n_scalars);
@@ -30,16 +32,17 @@ CFluidScalar::CFluidScalar(CConfig *config, su2double value_pressure_operating) 
   wilke = false;
   davidson = true;
 
+  // also not sure whether this is needed, this relates to the first comment in this document
   Pressure = value_pressure_operating;
   fluidModel = new CIncIdealGas(config->GetSpecific_Heat_Cp(), config->GetGas_Constant(), Pressure);
 
-  // SetLaminarViscosityModel(config);
+  // SetLaminarViscosityModel(config); //commented because laminarViscosity is hardcoded in CFluidScalar.hpp 
+  // because cannot enter more than one value for e.g. constant viscosity. 
 }
 
 std::vector<su2double> CFluidScalar::massToMoleFractions(su2double* val_scalars){
   su2double mixtureMolarMass = 0.0; 
   su2double mixtureFractionDenumerator = 0.0; 
-  // moleFractions.clear(); // is vector moleFractions automatically cleared after one SetTDState_T cycle? --> not needed because cleared in destructor of vector
 
   for(int iVar = 0; iVar < n_scalars; iVar++){
     mixtureMolarMass += val_scalars[iVar] / molarMasses[iVar]; 
@@ -54,7 +57,7 @@ std::vector<su2double> CFluidScalar::massToMoleFractions(su2double* val_scalars)
 void CFluidScalar::SetLaminarViscosityModel(const CConfig* config) {
   switch (config->GetKind_ViscosityModel()) {
     case VISCOSITYMODEL::CONSTANT:
-    // Build a list of LaminarViscosity pointers to be used in wilkeViscosity to get the species viscosities. 
+    // Build a list of LaminarViscosity pointers to be used in e.g. wilkeViscosity to get the species viscosities. 
       for (int iVar = 0; iVar < n_scalars; iVar++){
         LaminarViscosityPointers[iVar] = unique_ptr<CConstantViscosity>(new CConstantViscosity(config->GetMu_Constant(iVar)));
       }
@@ -91,6 +94,8 @@ su2double CFluidScalar::wilkeViscosity(su2double* val_scalars){
 
   Density = GetDensity();
   Temperature = GetTemperature();
+
+  // here laminarViscosity is filled with #n_scalars of species viscosity values. Commented because laminarViscosity is hardcoded right now
 /*  
   for (int iVar = 0; iVar < n_scalars; iVar++){
     LaminarViscosityPointers[iVar]->SetViscosity(Temperature, Density);
@@ -147,7 +152,7 @@ su2double CFluidScalar::davidsonViscosity(su2double* val_scalars){
 }
 
 unsigned long CFluidScalar::SetTDState_T(su2double val_temperature, su2double *val_scalars){
-  fluidModel->SetTDState_T(val_temperature, val_scalars);  
+  fluidModel->SetTDState_T(val_temperature, val_scalars);  // this is probably not needed as well. Relates to the first comment of this document
 
   if(wilke){
     Mu  = wilkeViscosity(val_scalars);

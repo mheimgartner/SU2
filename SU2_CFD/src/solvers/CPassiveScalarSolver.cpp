@@ -316,7 +316,6 @@ unsigned long CPassiveScalarSolver::SetPrimitive_Variables(CSolver **solver_cont
     /*--- Compute and store the mass diffusivity. ---*/
 
     CFluidModel * fluid_model_local = solver_container[FLOW_SOL]->GetFluidModel();
-    // CFluidModel * fluid_model_local = solver_container[FLOW_SOL]->GetKind_Scalar_Model(); 
     su2double * scalars = nodes->GetSolution(iPoint);
 
     n_not_in_domain += fluid_model_local->SetTDState_T(Temperature, scalars);
