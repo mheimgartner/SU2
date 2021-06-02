@@ -3298,7 +3298,8 @@ void CConfig::SetPostprocessing(SU2_COMPONENT val_software, unsigned short val_i
                     (Kind_FluidModel == INC_IDEAL_GAS) ||
                     (Kind_FluidModel == INC_IDEAL_GAS_POLY) ||
                     (Kind_FluidModel == CONSTANT_DENSITY) ||
-                    (Kind_FluidModel == FLAMELET_FLUID_MODEL));
+                    (Kind_FluidModel == FLAMELET_FLUID_MODEL) ||
+                    (Kind_FluidModel == MIXTURE_FLUID_MODEL));
   bool noneq_gas = ((Kind_FluidModel == MUTATIONPP) ||
                     (Kind_FluidModel == SU2_NONEQ));
   bool standard_air = ((Kind_FluidModel == STANDARD_AIR));
@@ -3310,7 +3311,15 @@ void CConfig::SetPostprocessing(SU2_COMPONENT val_software, unsigned short val_i
     Kind_ConductivityModel = CONDUCTIVITYMODEL::FLAMELET;
     Kind_DiffusivityModel  = DIFFUSIVITYMODEL::FLAMELET;
   }
-
+// this is probably not the right way because then user cannot choose for other viscosity models anymore...
+/*
+  if (Kind_FluidModel == MIXTURE_FLUID_MODEL){
+    Kind_Scalar_Model      = PASSIVE_SCALAR;
+    Kind_ViscosityModel    = VISCOSITYMODEL::MIXTURE;
+    Kind_ConductivityModel = CONDUCTIVITYMODEL::MIXTURE;
+    Kind_DiffusivityModel  = DIFFUSIVITYMODEL::MIXTURE;
+  }
+*/
   if (nZone > 1){
     Multizone_Problem = YES;
   }
@@ -4685,7 +4694,7 @@ void CConfig::SetPostprocessing(SU2_COMPONENT val_software, unsigned short val_i
   }
 
   if (Kind_DensityModel == INC_DENSITYMODEL::VARIABLE) {
-    if (Kind_FluidModel != INC_IDEAL_GAS && Kind_FluidModel != INC_IDEAL_GAS_POLY && Kind_FluidModel != FLAMELET_FLUID_MODEL) {
+    if (Kind_FluidModel != INC_IDEAL_GAS && Kind_FluidModel != INC_IDEAL_GAS_POLY && Kind_FluidModel != FLAMELET_FLUID_MODEL && Kind_FluidModel != MIXTURE_FLUID_MODEL) {
       SU2_MPI::Error("Variable density incompressible solver limited to ideal gases.\n Check the fluid model options (use INC_IDEAL_GAS, INC_IDEAL_GAS_POLY).", CURRENT_FUNCTION);
     }
   }
@@ -4698,8 +4707,8 @@ void CConfig::SetPostprocessing(SU2_COMPONENT val_software, unsigned short val_i
 
   if (Kind_Solver == INC_NAVIER_STOKES || Kind_Solver == INC_RANS) {
     if (Kind_ViscosityModel == VISCOSITYMODEL::SUTHERLAND) {
-      if ((Kind_FluidModel != INC_IDEAL_GAS) && (Kind_FluidModel != INC_IDEAL_GAS_POLY) && (Kind_FluidModel != FLAMELET_FLUID_MODEL)) {
-        SU2_MPI::Error("Sutherland's law only valid for ideal gases in incompressible flows.\n Must use VISCOSITY_MODEL=CONSTANT_VISCOSITY and set viscosity with\n MU_CONSTANT, or use DENSITY_MODEL= VARIABLE with FLUID_MODEL= INC_IDEAL_GAS or INC_IDEAL_GAS_POLY, or FLAMELET_FLUID_MODEL for VISCOSITY_MODEL=SUTHERLAND.\n NOTE: FREESTREAM_VISCOSITY is no longer used for incompressible flows!", CURRENT_FUNCTION);
+      if ((Kind_FluidModel != INC_IDEAL_GAS) && (Kind_FluidModel != INC_IDEAL_GAS_POLY) && (Kind_FluidModel != FLAMELET_FLUID_MODEL) && (Kind_FluidModel != MIXTURE_FLUID_MODEL)) {
+        SU2_MPI::Error("Sutherland's law only valid for ideal gases in incompressible flows.\n Must use VISCOSITY_MODEL=CONSTANT_VISCOSITY and set viscosity with\n MU_CONSTANT, or use DENSITY_MODEL= VARIABLE with FLUID_MODEL= INC_IDEAL_GAS or INC_IDEAL_GAS_POLY, or FLAMELET_FLUID_MODEL or MIXTURE_FLUID_MODEL for VISCOSITY_MODEL=SUTHERLAND.\n NOTE: FREESTREAM_VISCOSITY is no longer used for incompressible flows!", CURRENT_FUNCTION);
       }
     }
   }

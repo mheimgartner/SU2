@@ -10,12 +10,15 @@ class CFluidScalar : public CFluidModel {
 protected:
   unsigned short n_scalars;
   su2double viscosityMixture = 0.0;
-  su2double Density;
-  su2double Temperature;
+  // su2double Density;
+  // su2double Temperature;
+  su2double Gas_Constant = 0.0; 
+  su2double Gamma = 0.0; 
   
   bool wilke;
   bool davidson; 
 
+  std::vector<su2double> massFractions; 
   std::vector<su2double> moleFractions;  
   std::vector<su2double> molarMasses;
   std::vector<su2double> laminarViscosity = {1.118e-05, 1.795e-05}; 
@@ -28,7 +31,7 @@ protected:
   CFluidModel *fluidModel = nullptr;
 
  public:
-  // CFluidScalar(CConfig *config, CFluidModel *FluidModel, su2double value_pressure_operating);
+  // CFluidScalar(CConfig *config, CFluidModel *fluidModel);
   CFluidScalar(CConfig *config, su2double value_pressure_operating);
 
   ~CFluidScalar() {delete fluidModel;};
@@ -41,11 +44,13 @@ protected:
 
   inline su2double GetDensity() {return fluidModel->GetDensity(); }
 
-  std::vector<su2double> massToMoleFractions(su2double* val_scalars);
+  // std::vector<su2double> massToMoleFractions(su2double* val_scalars);
+  std::vector<su2double> massToMoleFractions(std::vector<su2double> massFractions);
 
   su2double wilkeViscosity(su2double* val_scalars);
 
-  su2double davidsonViscosity(su2double* val_scalars);
+  // su2double davidsonViscosity(su2double* val_scalars);
+  su2double davidsonViscosity(std::vector<su2double> massFractions);
 
   inline su2double GetLaminarViscosity() {return Mu; }
 

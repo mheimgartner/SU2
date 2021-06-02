@@ -276,7 +276,7 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
       break;
 
     case INC_IDEAL_GAS:
-    /*
+    
       //config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(config->GetMolecular_Weight()/1000.0));
       config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28/1000.0));
       Pressure_Thermodynamic = Density_FreeStream*Temperature_FreeStream*config->GetGas_Constant();
@@ -284,39 +284,12 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
       auxFluidModel->SetTDState_T(Temperature_FreeStream);
       Pressure_Thermodynamic = auxFluidModel->GetPressure();
       config->SetPressure_Thermodynamic(Pressure_Thermodynamic);
-    */
-
-      // ik heb if(mixture) even in de switch state gezet. Heeft allemaal te maken om een mogelijke oplossing
-      // te vinden voor SetTDState_T .... 
-   
-      if(mixture){
-         //config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(config->GetMolecular_Weight()/1000.0));
-        config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28/1000.0));
-        Pressure_Thermodynamic = Density_FreeStream*Temperature_FreeStream*config->GetGas_Constant();
-        // auxFluidModel = new CFluidScalar(config, auxFluidModel, Pressure_Thermodynamic);
-        auxFluidModel = new CFluidScalar(config, Pressure_Thermodynamic);
-        n_scalars = auxFluidModel->GetNScalars();
-        dummy_scalar = new su2double[n_scalars](); 
-        dummy_scalar[n_scalars-1] = 1;
-        auxFluidModel->SetTDState_T(Temperature_FreeStream, dummy_scalar); //waarom op deze manier en hier intialiseren?  
-        Pressure_Thermodynamic = auxFluidModel->GetPressure();
-        config->SetPressure_Thermodynamic(Pressure_Thermodynamic);
-      }
-      else {
-        config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28/1000.0));
-        Pressure_Thermodynamic = Density_FreeStream*Temperature_FreeStream*config->GetGas_Constant();
-        auxFluidModel = new CIncIdealGas(config->GetSpecific_Heat_Cp(), config->GetGas_Constant(), Pressure_Thermodynamic);
-        auxFluidModel->SetTDState_T(Temperature_FreeStream);
-        Pressure_Thermodynamic = auxFluidModel->GetPressure();
-        config->SetPressure_Thermodynamic(Pressure_Thermodynamic);
-      }
-    
       break;
 
     case INC_IDEAL_GAS_POLY:
 
       //config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(config->GetMolecular_Weight()/1000.0));
-      config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28/1000.0));
+      config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28.014/1000.0));
       Pressure_Thermodynamic = Density_FreeStream*Temperature_FreeStream*config->GetGas_Constant(); 
       auxFluidModel = new CIncIdealGasPolynomial<N_POLY_COEFFS>(config->GetGas_Constant(), Pressure_Thermodynamic);
       if (viscous) {
@@ -331,9 +304,9 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
       break;
 
     case FLAMELET_FLUID_MODEL:
-    {
+    
       //config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(config->GetMolecular_Weight()/1000.0));
-      config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28/1000.0));
+      config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28.014/1000.0));
       Pressure_Thermodynamic = Density_FreeStream*Temperature_FreeStream*config->GetGas_Constant(); 
       auxFluidModel = new CFluidFlamelet(config,Pressure_Thermodynamic);
       n_scalars = auxFluidModel->GetNScalars();
@@ -341,7 +314,20 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
       auxFluidModel->SetTDState_T(Temperature_FreeStream, dummy_scalar);
       config->SetPressure_Thermodynamic(Pressure_Thermodynamic);
       break;
-    }
+   
+    case MIXTURE_FLUID_MODEL:
+    
+      //config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(config->GetMolecular_Weight()/1000.0));
+      config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28.014/1000.0));
+      Pressure_Thermodynamic = Density_FreeStream*Temperature_FreeStream*config->GetGas_Constant(); 
+      auxFluidModel = new CFluidScalar(config, Pressure_Thermodynamic);
+      n_scalars = auxFluidModel->GetNScalars();
+      dummy_scalar = new su2double[n_scalars]();
+      dummy_scalar[n_scalars-1] = 1;
+      auxFluidModel->SetTDState_T(Temperature_FreeStream, dummy_scalar);
+      config->SetPressure_Thermodynamic(Pressure_Thermodynamic);
+      break;
+  
     default:
 
       SU2_MPI::Error("Fluid model not implemented for incompressible solver.", CURRENT_FUNCTION);
@@ -502,18 +488,6 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
       case INC_IDEAL_GAS:
         fluidModel = new CIncIdealGas(Specific_Heat_CpND, Gas_ConstantND, Pressure_ThermodynamicND);
         fluidModel->SetTDState_T(Temperature_FreeStreamND);
-
-        // not sure if this is needed in order to fix that SetTDState_T in CPassiveScalarSolver points to CFluidScalar
-      /*
-        if(mixture){
-          fluidModel = new CFluidScalar(config,Pressure_Thermodynamic);
-          fluidModel->SetTDState_T(Temperature_FreeStream, dummy_scalar);
-        }
-        else { 
-          fluidModel = new CIncIdealGas(Specific_Heat_CpND, Gas_ConstantND, Pressure_ThermodynamicND);
-          fluidModel->SetTDState_T(Temperature_FreeStreamND);
-        }
-      */
         break;
 
       case INC_IDEAL_GAS_POLY:
@@ -533,6 +507,13 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
         fluidModel->SetTDState_T(Temperature_FreeStream,dummy_scalar);
         delete[] dummy_scalar;
         break;
+    
+      case MIXTURE_FLUID_MODEL:
+        fluidModel = new CFluidScalar(config, Pressure_Thermodynamic);
+        fluidModel->SetTDState_T(Temperature_FreeStream, dummy_scalar);
+        delete[] dummy_scalar;
+        break;
+    
     }
 
     if (viscous) {
