@@ -1,0 +1,407 @@
+--------------------------------------------------------------------------
+A deprecated MCA variable value was specified in the environment or
+on the command line.  Deprecated MCA variables should be avoided;
+they may disappear in future releases.
+
+  Deprecated variable: orte_rsh_agent
+  New variable:        plm_rsh_agent
+--------------------------------------------------------------------------
+[rb-hpc-b42n07:115291:0:115291] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115281:0:115281] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115283:0:115283] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115287:0:115287] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115278:0:115278] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115279:0:115279] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115280:0:115280] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115282:0:115282] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115284:0:115284] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115285:0:115285] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115286:0:115286] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115288:0:115288] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115289:0:115289] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n07:115290:0:115290] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165230:0:165230] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153809:0:153809] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53208:0:53208] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87911:0:87911] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207799:0:207799] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72034:0:72034] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80608:0:80608] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165235:0:165235] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153811:0:153811] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255793:0:255793] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245032:0:245032] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53211:0:53211] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87913:0:87913] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207801:0:207801] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72035:0:72035] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80609:0:80609] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165237:0:165237] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153812:0:153812] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255796:0:255796] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245034:0:245034] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53214:0:53214] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87914:0:87914] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207802:0:207802] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72037:0:72037] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80612:0:80612] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165238:0:165238] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153818:0:153818] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255797:0:255797] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245035:0:245035] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53215:0:53215] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87915:0:87915] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207803:0:207803] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72041:0:72041] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80613:0:80613] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165233:0:165233] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153821:0:153821] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255800:0:255800] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245041:0:245041] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53216:0:53216] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87918:0:87918] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207804:0:207804] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72042:0:72042] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80615:0:80615] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165234:0:165234] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153810:0:153810] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255802:0:255802] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245044:0:245044] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53212:0:53212] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87922:0:87922] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207808:0:207808] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72044:0:72044] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80619:0:80619] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165239:0:165239] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153816:0:153816] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255804:0:255804] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245045:0:245045] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53201:0:53201] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87923:0:87923] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207810:0:207810] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72046:0:72046] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80621:0:80621] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165241:0:165241] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153817:0:153817] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255805:0:255805] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245047:0:245047] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53202:0:53202] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87906:0:87906] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207811:0:207811] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72031:0:72031] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80611:0:80611] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165242:0:165242] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153819:0:153819] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255806:0:255806] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245050:0:245050] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53203:0:53203] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87909:0:87909] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207812:0:207812] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72032:0:72032] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80607:0:80607] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165243:0:165243] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153820:0:153820] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255798:0:255798] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245037:0:245037] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53204:0:53204] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87910:0:87910] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207806:0:207806] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72043:0:72043] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80614:0:80614] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165231:0:165231] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153815:0:153815] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255801:0:255801] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245042:0:245042] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53206:0:53206] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87916:0:87916] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207805:0:207805] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72040:0:72040] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80617:0:80617] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165232:0:165232] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153813:0:153813] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255803:0:255803] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245043:0:245043] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53207:0:53207] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87919:0:87919] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207807:0:207807] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72036:0:72036] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80610:0:80610] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165229:0:165229] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153814:0:153814] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255794:0:255794] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245049:0:245049] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53209:0:53209] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87920:0:87920] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207798:0:207798] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72038:0:72038] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80618:0:80618] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n22:165236:0:165236] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n21:153808:0:153808] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255795:0:255795] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245048:0:245048] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n18:53210:0:53210] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n01:87921:0:87921] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n20:207809:0:207809] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n23:72045:0:72045] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n02:80620:0:80620] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n06:255799:0:255799] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b42n16:245046:0:245046] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+==== backtrace (tid: 165235) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x0000000000866cea CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:176
+ 2 0x00000000008672c0 CIncNSVariable::SetPrimVar()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/variables/CIncNSVariable.cpp:74
+ 3 0x00000000006a2870 CIncNSSolver::SetPrimitive_Variables()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:338
+ 4 0x000000000069555a CIncEulerSolver::CommonPreprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:884
+ 5 0x00000000006a21a3 CIncNSSolver::Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:68
+ 6 0x000000000047e5ed CMultiGridIntegration::MultiGrid_Cycle()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:179
+ 7 0x000000000047ed08 CMultiGridIntegration::MultiGrid_Iteration()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:108
+ 8 0x000000000048fd4f CFluidIteration::Iterate()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:103
+ 9 0x000000000048d337 CFluidIteration::Solve()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:309
+10 0x000000000046a1a6 CSinglezoneDriver::Run()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:159
+11 0x000000000046a1a6 CSinglezoneDriver::StartSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:79
+12 0x000000000041bff6 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:159
+13 0x0000000000022555 __libc_start_main()  ???:0
+14 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b42n22:165235] *** Process received signal ***
+[rb-hpc-b42n22:165235] Signal: Segmentation fault (11)
+[rb-hpc-b42n22:165235] Signal code:  (-6)
+[rb-hpc-b42n22:165235] Failing at address: 0x17dd600028573
+[rb-hpc-b42n22:165235] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b42n22:165235] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x866cea]
+[rb-hpc-b42n22:165235] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8672c0]
+[rb-hpc-b42n22:165235] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a2870]
+[rb-hpc-b42n22:165235] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69555a]
+[rb-hpc-b42n22:165235] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a21a3]
+[rb-hpc-b42n22:165235] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47e5ed]
+[rb-hpc-b42n22:165235] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47ed08]
+[rb-hpc-b42n22:165235] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48fd4f]
+[rb-hpc-b42n22:165235] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48d337]
+[rb-hpc-b42n22:165235] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46a1a6]
+[rb-hpc-b42n22:165235] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41bff6]
+[rb-hpc-b42n22:165235] [12] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b42n22:165235] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b42n22:165235] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+==== backtrace (tid: 245043) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x0000000000866cea CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:176
+ 2 0x00000000008672c0 CIncNSVariable::SetPrimVar()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/variables/CIncNSVariable.cpp:74
+ 3 0x00000000006a2870 CIncNSSolver::SetPrimitive_Variables()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:338
+ 4 0x000000000069555a CIncEulerSolver::CommonPreprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:884
+ 5 0x00000000006a21a3 CIncNSSolver::Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:68
+ 6 0x000000000047e5ed CMultiGridIntegration::MultiGrid_Cycle()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:179
+ 7 0x000000000047ed08 CMultiGridIntegration::MultiGrid_Iteration()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:108
+ 8 0x000000000048fd4f CFluidIteration::Iterate()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:103
+ 9 0x000000000048d337 CFluidIteration::Solve()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:309
+10 0x000000000046a1a6 CSinglezoneDriver::Run()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:159
+11 0x000000000046a1a6 CSinglezoneDriver::StartSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:79
+12 0x000000000041bff6 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:159
+13 0x0000000000022555 __libc_start_main()  ???:0
+14 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b42n16:245043] *** Process received signal ***
+[rb-hpc-b42n16:245043] Signal: Segmentation fault (11)
+[rb-hpc-b42n16:245043] Signal code:  (-6)
+[rb-hpc-b42n16:245043] Failing at address: 0x17dd60003bd33
+[rb-hpc-b42n16:245043] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b42n16:245043] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x866cea]
+[rb-hpc-b42n16:245043] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8672c0]
+[rb-hpc-b42n16:245043] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a2870]
+[rb-hpc-b42n16:245043] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69555a]
+[rb-hpc-b42n16:245043] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a21a3]
+[rb-hpc-b42n16:245043] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47e5ed]
+[rb-hpc-b42n16:245043] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47ed08]
+[rb-hpc-b42n16:245043] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48fd4f]
+[rb-hpc-b42n16:245043] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48d337]
+[rb-hpc-b42n16:245043] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46a1a6]
+[rb-hpc-b42n16:245043] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41bff6]
+[rb-hpc-b42n16:245043] [12] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b42n16:245043] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b42n16:245043] *** End of error message ***
+==== backtrace (tid: 255797) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x0000000000866cea CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:176
+ 2 0x00000000008672c0 CIncNSVariable::SetPrimVar()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/variables/CIncNSVariable.cpp:74
+ 3 0x00000000006a2870 CIncNSSolver::SetPrimitive_Variables()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:338
+ 4 0x000000000069555a CIncEulerSolver::CommonPreprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:884
+ 5 0x00000000006a21a3 CIncNSSolver::Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:68
+ 6 0x000000000047e5ed CMultiGridIntegration::MultiGrid_Cycle()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:179
+ 7 0x000000000047ed08 CMultiGridIntegration::MultiGrid_Iteration()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:108
+ 8 0x000000000048fd4f CFluidIteration::Iterate()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:103
+ 9 0x000000000048d337 CFluidIteration::Solve()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:309
+10 0x000000000046a1a6 CSinglezoneDriver::Run()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:159
+11 0x000000000046a1a6 CSinglezoneDriver::StartSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:79
+12 0x000000000041bff6 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:159
+13 0x0000000000022555 __libc_start_main()  ???:0
+14 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b42n06:255797] *** Process received signal ***
+[rb-hpc-b42n06:255797] Signal: Segmentation fault (11)
+[rb-hpc-b42n06:255797] Signal code:  (-6)
+[rb-hpc-b42n06:255797] Failing at address: 0x17dd60003e735
+[rb-hpc-b42n06:255797] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b42n06:255797] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x866cea]
+[rb-hpc-b42n06:255797] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8672c0]
+[rb-hpc-b42n06:255797] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a2870]
+[rb-hpc-b42n06:255797] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69555a]
+[rb-hpc-b42n06:255797] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a21a3]
+[rb-hpc-b42n06:255797] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47e5ed]
+[rb-hpc-b42n06:255797] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47ed08]
+[rb-hpc-b42n06:255797] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48fd4f]
+[rb-hpc-b42n06:255797] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48d337]
+[rb-hpc-b42n06:255797] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46a1a6]
+[rb-hpc-b42n06:255797] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41bff6]
+[rb-hpc-b42n06:255797] [12] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b42n06:255797] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b42n06:255797] *** End of error message ***
+==== backtrace (tid: 165239) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x0000000000866cea CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:176
+ 2 0x00000000008672c0 CIncNSVariable::SetPrimVar()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/variables/CIncNSVariable.cpp:74
+ 3 0x00000000006a2870 CIncNSSolver::SetPrimitive_Variables()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:338
+ 4 0x000000000069555a CIncEulerSolver::CommonPreprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:884
+ 5 0x00000000006a21a3 CIncNSSolver::Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:68
+ 6 0x000000000047e5ed CMultiGridIntegration::MultiGrid_Cycle()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:179
+ 7 0x000000000047ed08 CMultiGridIntegration::MultiGrid_Iteration()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:108
+ 8 0x000000000048fd4f CFluidIteration::Iterate()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:103
+ 9 0x000000000048d337 CFluidIteration::Solve()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:309
+10 0x000000000046a1a6 CSinglezoneDriver::Run()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:159
+11 0x000000000046a1a6 CSinglezoneDriver::StartSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:79
+12 0x000000000041bff6 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:159
+13 0x0000000000022555 __libc_start_main()  ???:0
+14 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b42n22:165239] *** Process received signal ***
+[rb-hpc-b42n22:165239] Signal: Segmentation fault (11)
+[rb-hpc-b42n22:165239] Signal code:  (-6)
+[rb-hpc-b42n22:165239] Failing at address: 0x17dd600028577
+[rb-hpc-b42n22:165239] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b42n22:165239] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x866cea]
+[rb-hpc-b42n22:165239] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8672c0]
+[rb-hpc-b42n22:165239] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a2870]
+[rb-hpc-b42n22:165239] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69555a]
+[rb-hpc-b42n22:165239] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a21a3]
+[rb-hpc-b42n22:165239] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47e5ed]
+[rb-hpc-b42n22:165239] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47ed08]
+[rb-hpc-b42n22:165239] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48fd4f]
+[rb-hpc-b42n22:165239] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48d337]
+[rb-hpc-b42n22:165239] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46a1a6]
+[rb-hpc-b42n22:165239] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41bff6]
+[rb-hpc-b42n22:165239] [12] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b42n22:165239] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b42n22:165239] *** End of error message ***
+==== backtrace (tid:  80607) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x0000000000866cea CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:176
+ 2 0x00000000008672c0 CIncNSVariable::SetPrimVar()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/variables/CIncNSVariable.cpp:74
+ 3 0x00000000006a2870 CIncNSSolver::SetPrimitive_Variables()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:338
+ 4 0x000000000069555a CIncEulerSolver::CommonPreprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:884
+ 5 0x00000000006a21a3 CIncNSSolver::Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:68
+ 6 0x000000000047e5ed CMultiGridIntegration::MultiGrid_Cycle()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:179
+ 7 0x000000000047ed08 CMultiGridIntegration::MultiGrid_Iteration()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:108
+ 8 0x000000000048fd4f CFluidIteration::Iterate()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:103
+ 9 0x000000000048d337 CFluidIteration::Solve()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:309
+10 0x000000000046a1a6 CSinglezoneDriver::Run()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:159
+11 0x000000000046a1a6 CSinglezoneDriver::StartSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:79
+12 0x000000000041bff6 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:159
+13 0x0000000000022555 __libc_start_main()  ???:0
+14 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b42n02:80607] *** Process received signal ***
+[rb-hpc-b42n02:80607] Signal: Segmentation fault (11)
+[rb-hpc-b42n02:80607] Signal code:  (-6)
+[rb-hpc-b42n02:80607] Failing at address: 0x17dd600013adf
+[rb-hpc-b42n02:80607] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b42n02:80607] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x866cea]
+[rb-hpc-b42n02:80607] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8672c0]
+[rb-hpc-b42n02:80607] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a2870]
+[rb-hpc-b42n02:80607] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69555a]
+[rb-hpc-b42n02:80607] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a21a3]
+[rb-hpc-b42n02:80607] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47e5ed]
+[rb-hpc-b42n02:80607] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47ed08]
+[rb-hpc-b42n02:80607] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48fd4f]
+[rb-hpc-b42n02:80607] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48d337]
+[rb-hpc-b42n02:80607] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46a1a6]
+[rb-hpc-b42n02:80607] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41bff6]
+[rb-hpc-b42n02:80607] [12] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b42n02:80607] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b42n02:80607] *** End of error message ***
+==== backtrace (tid:  87914) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x0000000000866cea CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:176
+ 2 0x00000000008672c0 CIncNSVariable::SetPrimVar()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/variables/CIncNSVariable.cpp:74
+ 3 0x00000000006a2870 CIncNSSolver::SetPrimitive_Variables()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:338
+ 4 0x000000000069555a CIncEulerSolver::CommonPreprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:884
+ 5 0x00000000006a21a3 CIncNSSolver::Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:68
+ 6 0x000000000047e5ed CMultiGridIntegration::MultiGrid_Cycle()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:179
+ 7 0x000000000047ed08 CMultiGridIntegration::MultiGrid_Iteration()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:108
+ 8 0x000000000048fd4f CFluidIteration::Iterate()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:103
+ 9 0x000000000048d337 CFluidIteration::Solve()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:309
+10 0x000000000046a1a6 CSinglezoneDriver::Run()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:159
+11 0x000000000046a1a6 CSinglezoneDriver::StartSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:79
+12 0x000000000041bff6 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:159
+13 0x0000000000022555 __libc_start_main()  ???:0
+14 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b42n01:87914] *** Process received signal ***
+[rb-hpc-b42n01:87914] Signal: Segmentation fault (11)
+[rb-hpc-b42n01:87914] Signal code:  (-6)
+[rb-hpc-b42n01:87914] Failing at address: 0x17dd60001576a
+[rb-hpc-b42n01:87914] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b42n01:87914] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x866cea]
+[rb-hpc-b42n01:87914] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8672c0]
+[rb-hpc-b42n01:87914] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a2870]
+[rb-hpc-b42n01:87914] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69555a]
+[rb-hpc-b42n01:87914] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a21a3]
+[rb-hpc-b42n01:87914] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47e5ed]
+[rb-hpc-b42n01:87914] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47ed08]
+[rb-hpc-b42n01:87914] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48fd4f]
+[rb-hpc-b42n01:87914] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48d337]
+[rb-hpc-b42n01:87914] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46a1a6]
+[rb-hpc-b42n01:87914] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41bff6]
+[rb-hpc-b42n01:87914] [12] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b42n01:87914] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b42n01:87914] *** End of error message ***
+==== backtrace (tid:  87916) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x0000000000866cea CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:176
+ 2 0x00000000008672c0 CIncNSVariable::SetPrimVar()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/variables/CIncNSVariable.cpp:74
+ 3 0x00000000006a2870 CIncNSSolver::SetPrimitive_Variables()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:338
+ 4 0x000000000069555a CIncEulerSolver::CommonPreprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:884
+ 5 0x00000000006a21a3 CIncNSSolver::Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:68
+ 6 0x000000000047e5ed CMultiGridIntegration::MultiGrid_Cycle()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:179
+ 7 0x000000000047ed08 CMultiGridIntegration::MultiGrid_Iteration()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/integration/CMultiGridIntegration.cpp:108
+ 8 0x000000000048fd4f CFluidIteration::Iterate()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:103
+ 9 0x000000000048d337 CFluidIteration::Solve()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/iteration/CFluidIteration.cpp:309
+10 0x000000000046a1a6 CSinglezoneDriver::Run()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:159
+11 0x000000000046a1a6 CSinglezoneDriver::StartSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:79
+12 0x000000000041bff6 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:159
+13 0x0000000000022555 __libc_start_main()  ???:0
+14 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b42n01:87916] *** Process received signal ***
+[rb-hpc-b42n01:87916] Signal: Segmentation fault (11)
+[rb-hpc-b42n01:87916] Signal code:  (-6)
+[rb-hpc-b42n01:87916] Failing at address: 0x17dd60001576c
+[rb-hpc-b42n01:87916] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b42n01:87916] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x866cea]
+[rb-hpc-b42n01:87916] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8672c0]
+[rb-hpc-b42n01:87916] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a2870]
+[rb-hpc-b42n01:87916] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69555a]
+[rb-hpc-b42n01:87916] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a21a3]
+[rb-hpc-b42n01:87916] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47e5ed]
+[rb-hpc-b42n01:87916] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x47ed08]
+[rb-hpc-b42n01:87916] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48fd4f]
+[rb-hpc-b42n01:87916] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x48d337]
+[rb-hpc-b42n01:87916] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46a1a6]
+[rb-hpc-b42n01:87916] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41bff6]
+[rb-hpc-b42n01:87916] [12] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b42n01:87916] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b42n01:87916] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 62 with PID 165235 on node rb-hpc-b42n22 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

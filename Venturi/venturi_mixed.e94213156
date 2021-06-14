@@ -1,0 +1,877 @@
+--------------------------------------------------------------------------
+A deprecated MCA variable value was specified in the environment or
+on the command line.  Deprecated MCA variables should be avoided;
+they may disappear in future releases.
+
+  Deprecated variable: orte_rsh_agent
+  New variable:        plm_rsh_agent
+--------------------------------------------------------------------------
+[rb-hpc-b04n13:45840:0:45840] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45842:0:45842] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46841:0:46841] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21279:0:21279] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45844:0:45844] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13631:0:13631] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46844:0:46844] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21281:0:21281] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45845:0:45845] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13634:0:13634] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46845:0:46845] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21283:0:21283] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45847:0:45847] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13635:0:13635] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46846:0:46846] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21288:0:21288] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45848:0:45848] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13636:0:13636] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46847:0:46847] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21289:0:21289] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45849:0:45849] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13637:0:13637] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46848:0:46848] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21291:0:21291] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45850:0:45850] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13638:0:13638] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46849:0:46849] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21292:0:21292] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45851:0:45851] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13639:0:13639] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46850:0:46850] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21282:0:21282] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45852:0:45852] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13640:0:13640] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46851:0:46851] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21284:0:21284] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45853:0:45853] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13641:0:13641] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46852:0:46852] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21285:0:21285] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45854:0:45854] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13642:0:13642] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46853:0:46853] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21286:0:21286] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45846:0:45846] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13643:0:13643] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46855:0:46855] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21287:0:21287] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n13:45843:0:45843] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13644:0:13644] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46856:0:46856] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21290:0:21290] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13645:0:13645] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n09:46843:0:46843] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n08:21278:0:21278] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n18:13633:0:13633] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49037:0:49037] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49022:0:49022] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49025:0:49025] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49027:0:49027] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49030:0:49030] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49035:0:49035] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49026:0:49026] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49028:0:49028] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49029:0:49029] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49031:0:49031] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49032:0:49032] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49033:0:49033] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49036:0:49036] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37225:0:37225] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37228:0:37228] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37229:0:37229] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37230:0:37230] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37231:0:37231] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37232:0:37232] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37233:0:37233] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37237:0:37237] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37238:0:37238] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37239:0:37239] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37234:0:37234] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37235:0:37235] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37236:0:37236] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n06:37227:0:37227] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n03:49034:0:49034] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17243:0:17243] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17244:0:17244] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17245:0:17245] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17249:0:17249] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17250:0:17250] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17251:0:17251] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17252:0:17252] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17253:0:17253] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17239:0:17239] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17241:0:17241] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17242:0:17242] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17246:0:17246] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17247:0:17247] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n33:17248:0:17248] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9514 :0:9514] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9515 :0:9515] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9516 :0:9516] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9517 :0:9517] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9518 :0:9518] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9519 :0:9519] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9520 :0:9520] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9521 :0:9521] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9522 :0:9522] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9523 :0:9523] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9524 :0:9524] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9525 :0:9525] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9513 :0:9513] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n21:9511 :0:9511] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34015:0:34015] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34016:0:34016] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34018:0:34018] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34019:0:34019] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34020:0:34020] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34021:0:34021] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34022:0:34022] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34023:0:34023] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34025:0:34025] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34027:0:34027] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34028:0:34028] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34024:0:34024] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34026:0:34026] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n12:34017:0:34017] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23481:0:23481] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23483:0:23483] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23485:0:23485] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23486:0:23486] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23487:0:23487] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23488:0:23488] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23489:0:23489] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23491:0:23491] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23492:0:23492] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23493:0:23493] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23495:0:23495] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23484:0:23484] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23490:0:23490] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n16:23494:0:23494] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+==== backtrace (tid:  49036) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n03:49036] *** Process received signal ***
+[rb-hpc-b04n03:49036] Signal: Segmentation fault (11)
+[rb-hpc-b04n03:49036] Signal code:  (-6)
+[rb-hpc-b04n03:49036] Failing at address: 0x17dd60000bf8c
+[rb-hpc-b04n03:49036] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n03:49036] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n03:49036] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n03:49036] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n03:49036] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n03:49036] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n03:49036] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n03:49036] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n03:49036] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n03:49036] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n03:49036] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n03:49036] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n03:49036] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n03:49036] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n03:49036] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n03:49036] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+==== backtrace (tid:  46844) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+==== backtrace (tid:  21288) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+==== backtrace (tid:  45843) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+==== backtrace (tid:  13641) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+==== backtrace (tid:  17241) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+==== backtrace (tid:  37230) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n09:46844] *** Process received signal ***
+[rb-hpc-b04n09:46844] Signal: Segmentation fault (11)
+[rb-hpc-b04n09:46844] Signal code:  (-6)
+[rb-hpc-b04n09:46844] Failing at address: 0x17dd60000b6fc
+[rb-hpc-b04n09:46844] [ 0] [rb-hpc-b04n08:21288] *** Process received signal ***
+[rb-hpc-b04n08:21288] Signal: Segmentation fault (11)
+[rb-hpc-b04n08:21288] Signal code:  (-6)
+[rb-hpc-b04n08:21288] Failing at address: 0x17dd600005328
+[rb-hpc-b04n08:21288] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n08:21288] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n08:21288] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n08:21288] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n08:21288] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n08:21288] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n08:21288] [ 6] [rb-hpc-b04n13:45843] *** Process received signal ***
+[rb-hpc-b04n13:45843] Signal: Segmentation fault (11)
+[rb-hpc-b04n13:45843] Signal code:  (-6)
+[rb-hpc-b04n13:45843] Failing at address: 0x17dd60000b313
+[rb-hpc-b04n13:45843] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n13:45843] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n13:45843] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n13:45843] [rb-hpc-b04n18:13641] *** Process received signal ***
+[rb-hpc-b04n18:13641] Signal: Segmentation fault (11)
+[rb-hpc-b04n18:13641] Signal code:  (-6)
+[rb-hpc-b04n18:13641] Failing at address: 0x17dd600003549
+[rb-hpc-b04n18:13641] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n18:13641] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n18:13641] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n18:13641] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n18:13641] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n18:13641] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n18:13641] [ 6] [rb-hpc-b04n33:17241] *** Process received signal ***
+[rb-hpc-b04n33:17241] Signal: Segmentation fault (11)
+[rb-hpc-b04n33:17241] Signal code:  (-6)
+[rb-hpc-b04n33:17241] Failing at address: 0x17dd600004359
+[rb-hpc-b04n33:17241] [ 0] [rb-hpc-b04n06:37230] *** Process received signal ***
+[rb-hpc-b04n06:37230] Signal: Segmentation fault (11)
+[rb-hpc-b04n06:37230] Signal code:  (-6)
+[rb-hpc-b04n06:37230] Failing at address: 0x17dd60000916e
+[rb-hpc-b04n06:37230] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n06:37230] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n06:37230] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n06:37230] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n06:37230] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n06:37230] [ 5] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n09:46844] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n09:46844] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n08:21288] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n08:21288] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n08:21288] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n08:21288] [10] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n13:45843] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n13:45843] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n13:45843] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n18:13641] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n18:13641] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n18:13641] [ 9] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n33:17241] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n33:17241] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n06:37230] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n06:37230] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n06:37230] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n06:37230] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n09:46844] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n09:46844] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n09:46844] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n09:46844] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n08:21288] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n08:21288] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n08:21288] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n13:45843] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n13:45843] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n13:45843] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n18:13641] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n18:13641] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n18:13641] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n33:17241] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n33:17241] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n33:17241] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n33:17241] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n06:37230] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n06:37230] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n06:37230] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n09:46844] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n09:46844] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n09:46844] [ 9] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n08:21288] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n08:21288] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n13:45843] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n13:45843] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n18:13641] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n33:17241] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n33:17241] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n33:17241] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n06:37230] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n09:46844] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n09:46844] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n09:46844] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n09:46844] [13] [rb-hpc-b04n13:45843] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n13:45843] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n13:45843] [14] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n18:13641] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n18:13641] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n33:17241] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n33:17241] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n33:17241] [12] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n06:37230] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n06:37230] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n09:46844] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n09:46844] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n13:45843] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n33:17241] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n33:17241] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n33:17241] *** End of error message ***
+==== backtrace (tid:  37233) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+==== backtrace (tid:  46849) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+[rb-hpc-b04n06:37233] *** Process received signal ***
+[rb-hpc-b04n06:37233] Signal: Segmentation fault (11)
+[rb-hpc-b04n06:37233] Signal code:  (-6)
+[rb-hpc-b04n06:37233] Failing at address: 0x17dd600009171
+[rb-hpc-b04n06:37233] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n06:37233] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n06:37233] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n06:37233] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+=================================
+[rb-hpc-b04n09:46849] *** Process received signal ***
+[rb-hpc-b04n09:46849] Signal: Segmentation fault (11)
+[rb-hpc-b04n09:46849] Signal code:  (-6)
+[rb-hpc-b04n09:46849] Failing at address: 0x17dd60000b701
+[rb-hpc-b04n06:37233] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n06:37233] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n06:37233] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n06:37233] [ 7] [rb-hpc-b04n09:46849] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n06:37233] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n06:37233] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n06:37233] [10] [rb-hpc-b04n09:46849] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n09:46849] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n09:46849] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n06:37233] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n06:37233] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n06:37233] [13] [rb-hpc-b04n09:46849] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n09:46849] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n09:46849] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n09:46849] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n06:37233] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n09:46849] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n09:46849] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n09:46849] [10] [rb-hpc-b04n06:37233] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n09:46849] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n09:46849] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n09:46849] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n09:46849] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n09:46849] *** End of error message ***
+==== backtrace (tid:  46852) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n09:46852] *** Process received signal ***
+[rb-hpc-b04n09:46852] Signal: Segmentation fault (11)
+[rb-hpc-b04n09:46852] Signal code:  (-6)
+[rb-hpc-b04n09:46852] Failing at address: 0x17dd60000b704
+[rb-hpc-b04n09:46852] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n09:46852] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n09:46852] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n09:46852] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n09:46852] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n09:46852] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n09:46852] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n09:46852] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n09:46852] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n09:46852] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n09:46852] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n09:46852] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n09:46852] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n09:46852] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n09:46852] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n09:46852] *** End of error message ***
+==== backtrace (tid:  21282) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n08:21282] *** Process received signal ***
+[rb-hpc-b04n08:21282] Signal: Segmentation fault (11)
+[rb-hpc-b04n08:21282] Signal code:  (-6)
+[rb-hpc-b04n08:21282] Failing at address: 0x17dd600005322
+[rb-hpc-b04n08:21282] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n08:21282] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n08:21282] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n08:21282] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n08:21282] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n08:21282] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n08:21282] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n08:21282] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n08:21282] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n08:21282] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n08:21282] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n08:21282] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n08:21282] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n08:21282] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n08:21282] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n08:21282] *** End of error message ***
+==== backtrace (tid:  13639) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n18:13639] *** Process received signal ***
+[rb-hpc-b04n18:13639] Signal: Segmentation fault (11)
+[rb-hpc-b04n18:13639] Signal code:  (-6)
+[rb-hpc-b04n18:13639] Failing at address: 0x17dd600003547
+[rb-hpc-b04n18:13639] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n18:13639] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n18:13639] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n18:13639] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n18:13639] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n18:13639] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n18:13639] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n18:13639] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n18:13639] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n18:13639] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n18:13639] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n18:13639] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n18:13639] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n18:13639] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n18:13639] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n18:13639] *** End of error message ***
+==== backtrace (tid:  46853) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n09:46853] *** Process received signal ***
+[rb-hpc-b04n09:46853] Signal: Segmentation fault (11)
+[rb-hpc-b04n09:46853] Signal code:  (-6)
+[rb-hpc-b04n09:46853] Failing at address: 0x17dd60000b705
+[rb-hpc-b04n09:46853] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n09:46853] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n09:46853] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n09:46853] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n09:46853] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n09:46853] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n09:46853] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n09:46853] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n09:46853] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n09:46853] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n09:46853] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n09:46853] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n09:46853] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n09:46853] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n09:46853] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n09:46853] *** End of error message ***
+==== backtrace (tid:   9522) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n21:09522] *** Process received signal ***
+[rb-hpc-b04n21:09522] Signal: Segmentation fault (11)
+[rb-hpc-b04n21:09522] Signal code:  (-6)
+[rb-hpc-b04n21:09522] Failing at address: 0x17dd600002532
+[rb-hpc-b04n21:09522] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n21:09522] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n21:09522] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n21:09522] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n21:09522] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n21:09522] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n21:09522] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n21:09522] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n21:09522] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n21:09522] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n21:09522] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n21:09522] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n21:09522] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n21:09522] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n21:09522] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n21:09522] *** End of error message ***
+==== backtrace (tid:  23491) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n16:23491] *** Process received signal ***
+[rb-hpc-b04n16:23491] Signal: Segmentation fault (11)
+[rb-hpc-b04n16:23491] Signal code:  (-6)
+[rb-hpc-b04n16:23491] Failing at address: 0x17dd600005bc3
+[rb-hpc-b04n16:23491] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n16:23491] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n16:23491] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n16:23491] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n16:23491] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n16:23491] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n16:23491] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n16:23491] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n16:23491] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n16:23491] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n16:23491] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n16:23491] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n16:23491] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n16:23491] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n16:23491] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n16:23491] *** End of error message ***
+==== backtrace (tid:  45849) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n13:45849] *** Process received signal ***
+[rb-hpc-b04n13:45849] Signal: Segmentation fault (11)
+[rb-hpc-b04n13:45849] Signal code:  (-6)
+[rb-hpc-b04n13:45849] Failing at address: 0x17dd60000b319
+[rb-hpc-b04n13:45849] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n13:45849] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n13:45849] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n13:45849] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n13:45849] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n13:45849] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n13:45849] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n13:45849] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n13:45849] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n13:45849] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n13:45849] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n13:45849] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n13:45849] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n13:45849] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n13:45849] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n13:45849] *** End of error message ***
+==== backtrace (tid:  45850) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n13:45850] *** Process received signal ***
+[rb-hpc-b04n13:45850] Signal: Segmentation fault (11)
+[rb-hpc-b04n13:45850] Signal code:  (-6)
+[rb-hpc-b04n13:45850] Failing at address: 0x17dd60000b31a
+[rb-hpc-b04n13:45850] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n13:45850] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n13:45850] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n13:45850] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n13:45850] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n13:45850] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n13:45850] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n13:45850] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n13:45850] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n13:45850] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n13:45850] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n13:45850] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n13:45850] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n13:45850] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n13:45850] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n13:45850] *** End of error message ***
+==== backtrace (tid:  34027) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n12:34027] *** Process received signal ***
+[rb-hpc-b04n12:34027] Signal: Segmentation fault (11)
+[rb-hpc-b04n12:34027] Signal code:  (-6)
+[rb-hpc-b04n12:34027] Failing at address: 0x17dd6000084eb
+[rb-hpc-b04n12:34027] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n12:34027] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n12:34027] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n12:34027] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n12:34027] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n12:34027] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n12:34027] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n12:34027] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n12:34027] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n12:34027] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n12:34027] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n12:34027] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n12:34027] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n12:34027] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n12:34027] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n12:34027] *** End of error message ***
+==== backtrace (tid:  17243) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000008673f4 std::vector<double, std::allocator<double> >::emplace_back<double>()  /share/hpc_apps/gcc/5.3.0/redhatel6/include/c++/5.3.0/bits/vector.tcc:101
+ 2 0x0000000000867545 CFluidScalar::SetTDState_T()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/fluid/CFluidScalar.cpp:177
+ 3 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:327
+ 4 0x00000000006960c7 CIncEulerSolver::SetNondimensionalization()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:328
+ 5 0x000000000069cd21 CIncEulerSolver::CIncEulerSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncEulerSolver.cpp:128
+ 6 0x00000000006a0c2a CIncNSSolver::CIncNSSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CIncNSSolver.cpp:39
+ 7 0x0000000000583a7f CSolverFactory::CreateFlowSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:472
+ 8 0x0000000000584001 CSolverFactory::CreateSubSolver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:258
+ 9 0x0000000000584e46 CSolverFactory::CreateSolverContainer()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/solvers/CSolverFactory.cpp:96
+10 0x0000000000454df5 CDriver::Solver_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:1051
+11 0x0000000000465574 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:198
+12 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+13 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+14 0x0000000000022555 __libc_start_main()  ???:0
+15 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n33:17243] *** Process received signal ***
+[rb-hpc-b04n33:17243] Signal: Segmentation fault (11)
+[rb-hpc-b04n33:17243] Signal code:  (-6)
+[rb-hpc-b04n33:17243] Failing at address: 0x17dd60000435b
+[rb-hpc-b04n33:17243] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n33:17243] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8673f4]
+[rb-hpc-b04n33:17243] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x867545]
+[rb-hpc-b04n33:17243] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6960c7]
+[rb-hpc-b04n33:17243] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd21]
+[rb-hpc-b04n33:17243] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c2a]
+[rb-hpc-b04n33:17243] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583a7f]
+[rb-hpc-b04n33:17243] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584001]
+[rb-hpc-b04n33:17243] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584e46]
+[rb-hpc-b04n33:17243] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454df5]
+[rb-hpc-b04n33:17243] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465574]
+[rb-hpc-b04n33:17243] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n33:17243] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n33:17243] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n33:17243] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n33:17243] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 12 with PID 0 on node rb-hpc-b04n03 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

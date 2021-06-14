@@ -1,0 +1,166 @@
+--------------------------------------------------------------------------
+A deprecated MCA variable value was specified in the environment or
+on the command line.  Deprecated MCA variables should be avoided;
+they may disappear in future releases.
+
+  Deprecated variable: orte_rsh_agent
+  New variable:        plm_rsh_agent
+--------------------------------------------------------------------------
+[rb-hpc-b06n18:6382 :0:6382] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b06n18:6383 :0:6383] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b06n18:6381 :0:6381] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n10:32994:0:32994] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b07n03:20466:0:20466] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n27:19789:0:19789] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b03n32:44577:0:44577] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n10:33000:0:33000] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b07n03:20478:0:20478] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n27:19791:0:19791] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b03n32:44580:0:44580] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n10:33002:0:33002] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b07n03:20463:0:20463] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n27:19793:0:19793] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b03n32:44581:0:44581] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n27:19794:0:19794] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b03n32:44584:0:44584] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n27:19796:0:19796] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b03n32:44591:0:44591] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n27:19797:0:19797] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b03n32:44593:0:44593] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n27:19798:0:19798] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b03n32:44579:0:44579] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b07n03:20475:0:20475] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n27:19800:0:19800] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[rb-hpc-b04n27:19787:0:19787] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+==== backtrace (tid:   6383) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000009aa29f CPhysicalGeometry::SetRCM_Ordering()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../Common/src/geometry/CPhysicalGeometry.cpp:4772
+ 2 0x0000000000463c4e CDriver::Geometrical_Preprocessing_FVM()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:788
+ 3 0x0000000000464d2f CDriver::Geometrical_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:658
+ 4 0x0000000000465445 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:175
+ 5 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+ 6 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+ 7 0x0000000000022555 __libc_start_main()  ???:0
+ 8 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b06n18:06383] *** Process received signal ***
+[rb-hpc-b06n18:06383] Signal: Segmentation fault (11)
+[rb-hpc-b06n18:06383] Signal code:  (-6)
+[rb-hpc-b06n18:06383] Failing at address: 0x17dd6000018ef
+[rb-hpc-b06n18:06383] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b06n18:06383] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x9aa29f]
+[rb-hpc-b06n18:06383] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x463c4e]
+[rb-hpc-b06n18:06383] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x464d2f]
+[rb-hpc-b06n18:06383] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465445]
+[rb-hpc-b06n18:06383] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b06n18:06383] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b06n18:06383] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b06n18:06383] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b06n18:06383] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+==== backtrace (tid:   6382) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000009aa29f CPhysicalGeometry::SetRCM_Ordering()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../Common/src/geometry/CPhysicalGeometry.cpp:4772
+ 2 0x0000000000463c4e CDriver::Geometrical_Preprocessing_FVM()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:788
+ 3 0x0000000000464d2f CDriver::Geometrical_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:658
+ 4 0x0000000000465445 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:175
+ 5 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+ 6 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+ 7 0x0000000000022555 __libc_start_main()  ???:0
+ 8 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b06n18:06382] *** Process received signal ***
+[rb-hpc-b06n18:06382] Signal: Segmentation fault (11)
+[rb-hpc-b06n18:06382] Signal code:  (-6)
+[rb-hpc-b06n18:06382] Failing at address: 0x17dd6000018ee
+[rb-hpc-b06n18:06382] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b06n18:06382] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x9aa29f]
+[rb-hpc-b06n18:06382] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x463c4e]
+[rb-hpc-b06n18:06382] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x464d2f]
+[rb-hpc-b06n18:06382] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465445]
+[rb-hpc-b06n18:06382] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b06n18:06382] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b06n18:06382] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b06n18:06382] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b06n18:06382] *** End of error message ***
+==== backtrace (tid:  33000) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000009aa29f CPhysicalGeometry::SetRCM_Ordering()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../Common/src/geometry/CPhysicalGeometry.cpp:4772
+ 2 0x0000000000463c4e CDriver::Geometrical_Preprocessing_FVM()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:788
+ 3 0x0000000000464d2f CDriver::Geometrical_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:658
+ 4 0x0000000000465445 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:175
+ 5 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+ 6 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+ 7 0x0000000000022555 __libc_start_main()  ???:0
+ 8 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b04n10:33000] *** Process received signal ***
+[rb-hpc-b04n10:33000] Signal: Segmentation fault (11)
+[rb-hpc-b04n10:33000] Signal code:  (-6)
+[rb-hpc-b04n10:33000] Failing at address: 0x17dd6000080e8
+[rb-hpc-b04n10:33000] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b04n10:33000] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x9aa29f]
+[rb-hpc-b04n10:33000] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x463c4e]
+[rb-hpc-b04n10:33000] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x464d2f]
+[rb-hpc-b04n10:33000] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465445]
+[rb-hpc-b04n10:33000] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b04n10:33000] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b04n10:33000] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b04n10:33000] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b04n10:33000] *** End of error message ***
+==== backtrace (tid:  20478) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000009aa29f CPhysicalGeometry::SetRCM_Ordering()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../Common/src/geometry/CPhysicalGeometry.cpp:4772
+ 2 0x0000000000463c4e CDriver::Geometrical_Preprocessing_FVM()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:788
+ 3 0x0000000000464d2f CDriver::Geometrical_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:658
+ 4 0x0000000000465445 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:175
+ 5 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+ 6 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+ 7 0x0000000000022555 __libc_start_main()  ???:0
+ 8 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b07n03:20478] *** Process received signal ***
+[rb-hpc-b07n03:20478] Signal: Segmentation fault (11)
+[rb-hpc-b07n03:20478] Signal code:  (-6)
+[rb-hpc-b07n03:20478] Failing at address: 0x17dd600004ffe
+[rb-hpc-b07n03:20478] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b07n03:20478] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x9aa29f]
+[rb-hpc-b07n03:20478] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x463c4e]
+[rb-hpc-b07n03:20478] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x464d2f]
+[rb-hpc-b07n03:20478] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465445]
+[rb-hpc-b07n03:20478] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b07n03:20478] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b07n03:20478] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b07n03:20478] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b07n03:20478] *** End of error message ***
+==== backtrace (tid:  20463) ====
+ 0 0x000000000004cb95 ucs_debug_print_backtrace()  ???:0
+ 1 0x00000000009aa29f CPhysicalGeometry::SetRCM_Ordering()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../Common/src/geometry/CPhysicalGeometry.cpp:4772
+ 2 0x0000000000463c4e CDriver::Geometrical_Preprocessing_FVM()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:788
+ 3 0x0000000000464d2f CDriver::Geometrical_Preprocessing()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:658
+ 4 0x0000000000465445 CDriver::CDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CDriver.cpp:175
+ 5 0x000000000046b0af CSinglezoneDriver::CSinglezoneDriver()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/drivers/CSinglezoneDriver.cpp:38
+ 6 0x000000000041c162 main()  /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/build/../SU2_CFD/src/SU2_CFD.cpp:129
+ 7 0x0000000000022555 __libc_start_main()  ???:0
+ 8 0x0000000000426187 _start()  ???:0
+=================================
+[rb-hpc-b07n03:20463] *** Process received signal ***
+[rb-hpc-b07n03:20463] Signal: Segmentation fault (11)
+[rb-hpc-b07n03:20463] Signal code:  (-6)
+[rb-hpc-b07n03:20463] Failing at address: 0x17dd600004fef
+[rb-hpc-b07n03:20463] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2aaaaba9d630]
+[rb-hpc-b07n03:20463] [ 1] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x9aa29f]
+[rb-hpc-b07n03:20463] [ 2] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x463c4e]
+[rb-hpc-b07n03:20463] [ 3] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x464d2f]
+[rb-hpc-b07n03:20463] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465445]
+[rb-hpc-b07n03:20463] [ 5] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b0af]
+[rb-hpc-b07n03:20463] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c162]
+[rb-hpc-b07n03:20463] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b07n03:20463] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426187]
+[rb-hpc-b07n03:20463] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node rb-hpc-b06n18 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

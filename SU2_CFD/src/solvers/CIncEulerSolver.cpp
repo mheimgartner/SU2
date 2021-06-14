@@ -318,10 +318,12 @@ void CIncEulerSolver::SetNondimensionalization(CConfig *config, unsigned short i
     case MIXTURE_FLUID_MODEL:
     
       //config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(config->GetMolecular_Weight()/1000.0));
-      config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28.014/1000.0));
+      // config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28.8507/1000.0));
+      config->SetGas_Constant(UNIVERSAL_GAS_CONSTANT/(28.9912/1000.0));
       Pressure_Thermodynamic = Density_FreeStream*Temperature_FreeStream*config->GetGas_Constant(); 
       auxFluidModel = new CFluidScalar(config, Pressure_Thermodynamic);
-      n_scalars = auxFluidModel->GetNScalars();
+      // n_scalars = auxFluidModel->GetNScalars();
+      n_scalars = config->GetNScalarsInit(); 
       dummy_scalar = new su2double[n_scalars]();
       dummy_scalar[n_scalars-1] = 1;
       auxFluidModel->SetTDState_T(Temperature_FreeStream, dummy_scalar);

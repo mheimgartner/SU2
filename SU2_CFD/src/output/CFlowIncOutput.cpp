@@ -482,6 +482,9 @@ void CFlowIncOutput::SetVolumeOutputFields(CConfig *config){
   switch(scalar_model){
     case PASSIVE_SCALAR:
       AddVolumeOutput("PASSIVE_SCALAR", "Passive_Scalar", "SOLUTION", "Passive scalar solution");
+      AddVolumeOutput("DIFFUSIVITY"   , "Diffusivity"   , "SOLUTION", "Passive scalar diffusivity");
+      AddVolumeOutput("SPECIFIC_HEAT_CP"   , "Specific_Heat_Cp"   , "SOLUTION", "Mixture specific heat cp");
+      AddVolumeOutput("CONDUCTIVITY"   , "Conductivity"   , "SOLUTION", "Mixture conductivity");
       break;
     case PROGRESS_VARIABLE:
       AddVolumeOutput("PROGRESS_VARIABLE", "Progress_Variable", "SOLUTION", "Progress variable solution");
@@ -723,6 +726,9 @@ void CFlowIncOutput::LoadVolumeData(CConfig *config, CGeometry *geometry, CSolve
   switch(scalar_model){
     case PASSIVE_SCALAR:
       SetVolumeOutputValue("PASSIVE_SCALAR", iPoint, Node_Scalar->GetSolution(iPoint, 0));
+      SetVolumeOutputValue("DIFFUSIVITY"   , iPoint, Node_Scalar->GetDiffusivity(iPoint, 0));
+      SetVolumeOutputValue("SPECIFIC_HEAT_CP"   , iPoint, Node_Flow->GetSpecificHeatCp(iPoint));
+      SetVolumeOutputValue("CONDUCTIVITY"   , iPoint, Node_Flow->GetThermalConductivity(iPoint));
       break;
     case PROGRESS_VARIABLE:
       SetVolumeOutputValue("PROGRESS_VARIABLE", iPoint, Node_Scalar->GetSolution(iPoint, I_PROG_VAR));

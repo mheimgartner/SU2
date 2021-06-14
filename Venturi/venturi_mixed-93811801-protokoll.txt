@@ -49,3 +49,32 @@ Job was submitted like this:
 Application commands:
 /share/hpc_apps/bin/mpirun --leave-session-attached -x LD_LIBRARY_PATH -np $SCSUB_NCPUS /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD  config_c6_cms_venturi.cfg
 SCSUB_APPL_RC=$?
+
+JOB SUMMARY:
+=============================================================================
+NAME				= venturi_mixed
+ID				= 93811801
+WORKING_DIRECTORY		= /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi
+APPLICATION_EXIT_CODE		= 139
+QUEUE				= rb_regular
+START_TIME			= Wed Jun 2 14:52:24 2021
+END_TIME			= Wed Jun 2 15:07:11 2021
+TOTAL_MAXIMUM_MEMORY_USED	=  26.4 Gbytes
+TOTAL_AVERAGE_MEMORY_USED	=  23.9 Gbytes
+TOTAL_MEMORY_REQUESTED		= 286720.00 MB
+DELTA_MEMORY			= 259628.00 MB
+NCPUS				= 140
+CPU_TIME			= 112719.00 sec.
+RUN_TIME			= 885 sec.
+TURNAROUND_TIME			= 888 sec.
+REQUESTED_RUNTIME               =  240.0 min (14400.0 sec.) 
+STDOUT_FILE			= /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi/venturi_mixed.o93811801
+STDERR_FILE			= /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi/venturi_mixed.e93811801
+=============================================================================
+
+JOB REQUEST PERFORMANCE:
+=============================================================================
+RUNTIME_REQUEST_QUALITY         = 5 (poor) [used 6% of requested resources]
+MEMORY_REQUEST_QUALITY          = 5 (poor) [used 9% of requested resources]
+=============================================================================
+

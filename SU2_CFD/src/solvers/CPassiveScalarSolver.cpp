@@ -51,8 +51,10 @@ CPassiveScalarSolver::CPassiveScalarSolver(CGeometry *geometry,
    have a single equation. Other child classes of CScalarSolver
    can have variable numbers of equations. ---*/
  
-  nVar     = 1;
-  nPrimVar = 1;
+  nVar = config->GetNScalarsInit();
+  nPrimVar = nVar; 
+  // nVar     = 1;
+  // nPrimVar = 1;
 
   nPoint = geometry->GetnPoint();
   nPointDomain = geometry->GetnPointDomain();
@@ -164,6 +166,7 @@ CPassiveScalarSolver::CPassiveScalarSolver(CGeometry *geometry,
      nodes->SetDiffusivity(iPoint, M, iVar);
   }
 
+
   SetBaseClassPointerToNodes();
 
   /*--- MPI solution ---*/
@@ -262,21 +265,13 @@ void CPassiveScalarSolver::Preprocessing(CGeometry *geometry, CSolver **solver_c
 
     CFluidModel * fluid_model_local = solver_container[FLOW_SOL]->GetFluidModel();
     su2double * scalars = nodes->GetSolution(i_point);
-    // su2double * scalars = solver_container[SCALAR_SOL]->GetNodes()->GetSolution(i_point);
-    // su2double * scalars;
-    // scalars = new su2double[config->GetNScalars()]();
-    // scalars = nodes->GetSolution(i_point);
-    // su2double val[1] = {0.1};
-    // scalars = val; 
-
-    // std::cout << scalars[0] << endl; 
-
+ 
     // su2double Temperature = nodes->GetTemperature(i_point);
     su2double Temperature = solver_container[FLOW_SOL]->GetNodes()->GetTemperature(i_point);
 
     n_not_in_domain += fluid_model_local->SetTDState_T(Temperature, scalars); /*--- first argument (temperature) is not used ---*/
 
-    for(auto i_scalar = 0u; i_scalar < config->GetNScalars(); ++i_scalar){
+    for(auto i_scalar = 0u; i_scalar < nVar; ++i_scalar){
       nodes->SetDiffusivity(i_point, fluid_model_local->GetMassDiffusivity(), i_scalar);
     }
 

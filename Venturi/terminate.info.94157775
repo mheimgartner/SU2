@@ -1,0 +1,27 @@
+06.06.2021 11:48:22 69938@rb-hpc-b45n22: /gpfs3/applications/lsf/10.1.0/s+c/lsf_terminator.sh terminate
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: ACTION = terminate
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: STAGE = INIT
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: No maching scsub termscript found.
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: Send SIGTERM to following processes
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 66967 /bin/sh /home/hem1dev/.lsbatch/1622972586.94157775
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 66971 /bin/sh /home/hem1dev/.lsbatch/1622972586.94157775.shell
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67367 sh -c . \/share\/hpc_apps\/\/CDTNG\/0\.ignore_warning\.env\.sh && . \/share\/hpc_apps\/\/CDTNG\/2log\.env\.sh && . \/share\/hpc_apps\/\/openmpi\/CDTNG\/lsf\.env\.sh && . \/share\/hpc_apps\/\/openmpi\/3\.1\.6\/gnu\/5\.3\.0\/CDTNG\/ompi\.env\.sh && \/share\/hpc_apps\/openmpi\/3\.1\.6\/gnu\/5\.3\.0\/bin\/mpirun '--leave-session-attached' '-x' 'LD_LIBRARY_PATH' '-np' '140' '/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD' 'turbulentpipe.cfg'
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67408 /share/hpc_apps/openmpi/3.1.6/gnu/5.3.0/bin/mpirun --leave-session-attached -x LD_LIBRARY_PATH -np 140 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67415 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67416 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67417 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67418 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67419 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67420 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67421 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67422 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67423 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67424 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67425 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67426 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67427 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: 67428 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+06.06.2021 11:48:24 69938@rb-hpc-b45n22:
+06.06.2021 11:48:24 69938@rb-hpc-b45n22: STAGE = SIGTERM
+06.06.2021 11:48:45 69938@rb-hpc-b45n22: STAGE = SIGTERM
+06.06.2021 11:48:45 69938@rb-hpc-b45n22: STAGE = READY

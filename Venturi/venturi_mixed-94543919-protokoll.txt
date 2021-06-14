@@ -1,0 +1,61 @@
+LSF job ID: 94543919
+Job start: Mon Jun 14 10:35:18 CEST 2021
+on: rb-hpc-b07n33
+distributed to: 
+   host : rb-hpc-b07n33
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b07n09
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b07n27
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b07n30
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b07n31
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+
+Job was submitted like this:
+/share/hpc_apps/bin/subbin -j venturi_mixed -n 70 -N 14 -m 1G -r 00:30 -M ompi,3.1.6-gnu-5.3.0 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+
+Application commands:
+/share/hpc_apps/bin/mpirun --leave-session-attached -x LD_LIBRARY_PATH -np $SCSUB_NCPUS /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD  config_c6_cms_venturi.cfg
+SCSUB_APPL_RC=$?
+
+JOB SUMMARY:
+=============================================================================
+NAME				= venturi_mixed
+ID				= 94543919
+WORKING_DIRECTORY		= /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi
+APPLICATION_EXIT_CODE		= 143
+TERMINATION_REASON		= TERM_OWNER: job killed by owner.
+QUEUE				= rb_regular
+START_TIME			= Mon Jun 14 10:35:16 2021
+END_TIME			= Mon Jun 14 10:38:17 2021
+TOTAL_MAXIMUM_MEMORY_USED	=  12.9 Gbytes
+TOTAL_AVERAGE_MEMORY_USED	=  8.2 Gbytes
+TOTAL_MEMORY_REQUESTED		= 71680.00 MB
+DELTA_MEMORY			= 50481.00 MB
+NCPUS				= 70
+CPU_TIME			= 9724.00 sec.
+RUN_TIME			= 178 sec.
+TURNAROUND_TIME			= 183 sec.
+REQUESTED_RUNTIME               =  30.0 min (1800.0 sec.) 
+STDOUT_FILE			= /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi/venturi_mixed.o94543919
+STDERR_FILE			= /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi/venturi_mixed.e94543919
+=============================================================================
+
+JOB REQUEST PERFORMANCE:
+=============================================================================
+RUNTIME_REQUEST_QUALITY         = 5 (poor) [used 9% of requested resources]
+MEMORY_REQUEST_QUALITY          = 5 (poor) [used 18% of requested resources]
+=============================================================================
+

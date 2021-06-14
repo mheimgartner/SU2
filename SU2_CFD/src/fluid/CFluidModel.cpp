@@ -41,9 +41,10 @@
 #include "../../include/fluid/CConstantDiffusivity.hpp"
 #include "../../include/fluid/CConstantSchmidtRANS.hpp"
 #include "../../include/fluid/CConstantSchmidt.hpp"
+#include "../../include/fluid/CUnityLewisDiffusivity.hpp"
 
 void CFluidModel::SetLaminarViscosityModel(const CConfig* config) {
- if(config->GetKind_Scalar_Model() == NONE){
+//  if(config->GetKind_Scalar_Model() == NONE){
 
   switch (config->GetKind_ViscosityModel()) {
     case VISCOSITYMODEL::CONSTANT:
@@ -64,8 +65,8 @@ void CFluidModel::SetLaminarViscosityModel(const CConfig* config) {
       SU2_MPI::Error("Viscosity model not available.", CURRENT_FUNCTION);
       break;
   }
- }
-  else {} 
+//  }
+  // else {} 
 }
 
 void CFluidModel::SetThermalConductivityModel(const CConfig* config) {
@@ -118,6 +119,9 @@ void CFluidModel::SetMassDiffusivityModel (const CConfig* config) {
       break;
     case DIFFUSIVITYMODEL::FLAMELET:
       /* do nothing. Diffusivity is obtained from the table and set in setTDState_T */
+      break;
+    case DIFFUSIVITYMODEL::UNITY_LEWIS:
+      MassDiffusivity = unique_ptr<CUnityLewisDiffusivity>(new CUnityLewisDiffusivity(config->GetKt_ConstantND()));
       break;
     default:
       SU2_MPI::Error("Diffusivity model not available.", CURRENT_FUNCTION);

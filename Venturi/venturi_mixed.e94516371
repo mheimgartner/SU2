@@ -1,0 +1,1989 @@
+--------------------------------------------------------------------------
+A deprecated MCA variable value was specified in the environment or
+on the command line.  Deprecated MCA variables should be avoided;
+they may disappear in future releases.
+
+  Deprecated variable: orte_rsh_agent
+  New variable:        plm_rsh_agent
+--------------------------------------------------------------------------
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+
+[rb-hpc-b44n05:74127] *** Process received signal ***
+[rb-hpc-b44n05:74127] Signal: Aborted (6)
+[rb-hpc-b44n05:74127] Associated errno: Unknown error 1039978808 (1039978808)
+[rb-hpc-b44n05:74127] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74128] *** Process received signal ***
+[rb-hpc-b44n05:74128] Signal: Aborted (6)
+[rb-hpc-b44n05:74128] Associated errno: Unknown error -1105426109 (-1105426109)
+[rb-hpc-b44n05:74128] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n05:74119] *** Process received signal ***
+[rb-hpc-b44n05:74119] Signal: Aborted (6)
+[rb-hpc-b44n05:74119] Associated errno: Unknown error -1106666541 (-1106666541)
+[rb-hpc-b44n05:74119] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74114] *** Process received signal ***
+[rb-hpc-b44n05:74114] Signal: Aborted (6)
+[rb-hpc-b44n05:74114] Associated errno: Unknown error -1106617233 (-1106617233)
+[rb-hpc-b44n05:74114] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74116] *** Process received signal ***
+[rb-hpc-b44n05:74116] Signal: Aborted (6)
+[rb-hpc-b44n05:74116] Associated errno: Unknown error -1107738318 (-1107738318)
+[rb-hpc-b44n05:74116] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74120] *** Process received signal ***
+[rb-hpc-b44n05:74120] Signal: Aborted (6)
+[rb-hpc-b44n05:74120] Associated errno: Unknown error 1039990478 (1039990478)
+[rb-hpc-b44n05:74120] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74121] *** Process received signal ***
+[rb-hpc-b44n05:74121] Signal: Aborted (6)
+[rb-hpc-b44n05:74121] Associated errno: Unknown error -1105885902 (-1105885902)
+[rb-hpc-b44n05:74121] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74122] *** Process received signal ***
+[rb-hpc-b44n05:74122] Signal: Aborted (6)
+[rb-hpc-b44n05:74122] Associated errno: Unknown error 1035822930 (1035822930)
+[rb-hpc-b44n05:74122] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74123] *** Process received signal ***
+[rb-hpc-b44n05:74123] Signal: Aborted (6)
+[rb-hpc-b44n05:74123] Associated errno: Unknown error -1105658551 (-1105658551)
+[rb-hpc-b44n05:74123] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74124] *** Process received signal ***
+[rb-hpc-b44n05:74124] Signal: Aborted (6)
+[rb-hpc-b44n05:74124] Associated errno: Unknown error 1042064021 (1042064021)
+[rb-hpc-b44n05:74124] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74126] *** Process received signal ***
+[rb-hpc-b44n05:74126] Signal: Aborted (6)
+[rb-hpc-b44n05:74126] Associated errno: Unknown error 1041798292 (1041798292)
+[rb-hpc-b44n05:74126] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74125] *** Process received signal ***
+[rb-hpc-b44n05:74125] Signal: Aborted (6)
+[rb-hpc-b44n05:74125] Associated errno: Unknown error 1042093739 (1042093739)
+[rb-hpc-b44n05:74125] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n05:74127] [ 0] [rb-hpc-b44n05:74128] [ 0] [rb-hpc-b44n05:74121] [ 0] [rb-hpc-b44n05:74122] [ 0] [rb-hpc-b44n05:74123] [ 0] [rb-hpc-b44n05:74124] [ 0] [rb-hpc-b44n05:74125] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74124] [ 1] [rb-hpc-b44n05:74126] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74126] [ 1] [rb-hpc-b44n05:74112] *** Process received signal ***
+[rb-hpc-b44n05:74112] Signal: Aborted (6)
+[rb-hpc-b44n05:74112] Associated errno: Unknown error 1042132149 (1042132149)
+[rb-hpc-b44n05:74112] Signal code: User function (kill, sigsend, abort, etc.) (0)
+/lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74127] [ 1] [rb-hpc-b44n05:74119] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74119] [ 1] [rb-hpc-b44n05:74114] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74114] [ 1] [rb-hpc-b44n05:74116] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74116] [ 1] [rb-hpc-b44n05:74120] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74120] [ 1] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74128] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74128] [ 2] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74121] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74121] [ 2] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74122] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74122] [ 2] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74123] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74123] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+/lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74125] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74125] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74125] [ 3] [rb-hpc-b44n05:74123] [ 3] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74124] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74124] [ 3] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74126] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74126] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74126] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74127] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74127] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74127] [ 4] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74119] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74119] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+/lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74114] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74114] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74114] [ 4] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74116] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74116] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74116] [ 4] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74120] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74120] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74120] [ 4] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74128] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74128] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74128] [ 5] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74121] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74121] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74121] [ 5] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74122] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74122] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74122] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74122] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74125] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74125] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74125] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74125] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74123] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74123] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74123] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74123] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74124] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74124] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74124] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74124] [ 7] [rb-hpc-b44n05:74112] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74112] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74112] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74112] [ 3] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74126] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74126] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74126] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74127] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74127] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74127] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74127] [ 8] [rb-hpc-b44n05:74119] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74119] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74119] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74119] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74114] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74114] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74114] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74116] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74116] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74116] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74120] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74120] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74120] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74128] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74128] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74128] [ 8] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74121] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74121] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74121] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74122] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74122] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74122] [ 9] [rb-hpc-b44n05:74121] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74121] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74121] [11] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74125] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74125] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74125] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74125] [11] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74123] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74123] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74123] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74123] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74123] [12] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74124] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74124] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74124] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74124] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74124] [12] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74112] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74112] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74112] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74126] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74126] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74126] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74126] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74126] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74127] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74127] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74127] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74127] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74119] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74119] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74119] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74119] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74119] [12] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74114] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74114] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74114] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74114] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74114] [12] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74116] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74116] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74116] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74116] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74116] [12] [rb-hpc-b44n05:74120] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74120] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74120] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74120] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74120] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74128] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74128] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74128] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74128] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74128] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74128] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74122] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74122] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74122] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74122] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74122] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74122] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74128] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74128] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74128] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74121] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74121] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74121] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74121] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74121] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74121] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74125] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74125] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74125] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74125] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74125] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74125] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74125] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74123] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74123] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74123] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74123] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74123] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74123] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74124] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74124] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74124] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74124] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74124] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74124] [18] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74112] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74112] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74112] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74112] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74126] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74126] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74126] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74126] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74126] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74126] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74127] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74127] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74127] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74127] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74127] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74127] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74127] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74119] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74119] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74119] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74119] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74119] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74119] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74119] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74114] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74114] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74114] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74114] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74114] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74114] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74114] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74116] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74116] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74116] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74116] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74116] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74116] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74116] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74116] [20] [rb-hpc-b44n05:74120] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74120] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74120] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74120] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74120] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74120] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74120] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74120] [20] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74122] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74122] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74122] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74122] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74122] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74122] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74122] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74120] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74120] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74128] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74128] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74128] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74128] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74128] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74121] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74121] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74121] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74121] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74121] *** End of error message ***
+[18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74125] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74125] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74125] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74125] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74123] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74123] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74123] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74123] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74124] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74124] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74124] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74124] *** End of error message ***
+[rb-hpc-b44n05:74112] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74112] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74112] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74112] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74112] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74112] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74112] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n05:74112] [18] [rb-hpc-b44n05:74126] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74126] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74126] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74126] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74127] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74127] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74127] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74119] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74119] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74119] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74114] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74114] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74114] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74116] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74116] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74112] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74112] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74112] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74112] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23923] *** Process received signal ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23924] *** Process received signal ***
+[rb-hpc-b44n10:23924] Signal: Aborted (6)
+[rb-hpc-b44n10:23924] Signal code:  (-1420377720)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171588] *** Process received signal ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23925] *** Process received signal ***
+[rb-hpc-b44n10:23925] Signal: Aborted (6)
+[rb-hpc-b44n10:23925] Signal code:  (-1420377720)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136234] *** Process received signal ***
+[rb-hpc-b44n14:136234] Signal: Aborted (6)
+[rb-hpc-b44n14:136234] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+terminate called after throwing an instance of 'terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136235] *** Process received signal ***
+[rb-hpc-b44n14:136235] Signal: Aborted (6)
+[rb-hpc-b44n14:136235] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171590] *** Process received signal ***
+[rb-hpc-b44n11:171590] Signal: Aborted (6)
+[rb-hpc-b44n11:171590] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23927] *** Process received signal ***
+[rb-hpc-b44n10:23927] Signal: Aborted (6)
+[rb-hpc-b44n10:23927] Signal code:  (-1420377720)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136236] *** Process received signal ***
+[rb-hpc-b44n14:136236] Signal: Aborted (6)
+[rb-hpc-b44n14:136236] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171591] *** Process received signal ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23928] *** Process received signal ***
+[rb-hpc-b44n10:23928] Signal: Aborted (6)
+[rb-hpc-b44n10:23928] Signal code:  (-1420377720)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136238] *** Process received signal ***
+[rb-hpc-b44n14:136238] Signal: Aborted (6)
+[rb-hpc-b44n14:136238] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171592] *** Process received signal ***
+[rb-hpc-b44n11:171592] Signal: Aborted (6)
+[rb-hpc-b44n11:171592] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23929] *** Process received signal ***
+[rb-hpc-b44n10:23929] Signal: Aborted (6)
+[rb-hpc-b44n10:23929] Signal code:  (-1420377720)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136239] *** Process received signal ***
+[rb-hpc-b44n14:136239] Signal: Aborted (6)
+[rb-hpc-b44n14:136239] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171593] *** Process received signal ***
+[rb-hpc-b44n11:171593] Signal: Aborted (6)
+[rb-hpc-b44n11:171593] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23912] *** Process received signal ***
+[rb-hpc-b44n10:23912] Signal: Aborted (6)
+[rb-hpc-b44n10:23912] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23912] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23912] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23912] [ 2] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136240] *** Process received signal ***
+[rb-hpc-b44n14:136240] Signal: Aborted (6)
+[rb-hpc-b44n14:136240] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171594] *** Process received signal ***
+[rb-hpc-b44n11:171594] Signal: Aborted (6)
+[rb-hpc-b44n11:171594] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23915] *** Process received signal ***
+[rb-hpc-b44n10:23915] Signal: Aborted (6)
+[rb-hpc-b44n10:23915] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23915] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23915] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23915] [ 2] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136241] *** Process received signal ***
+[rb-hpc-b44n14:136241] Signal: Aborted (6)
+[rb-hpc-b44n14:136241] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23917] *** Process received signal ***
+[rb-hpc-b44n10:23917] Signal: Aborted (6)
+[rb-hpc-b44n10:23917] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23917] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23917] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23917] [ 2] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136242] *** Process received signal ***
+[rb-hpc-b44n14:136242] Signal: Aborted (6)
+[rb-hpc-b44n14:136242] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171596] *** Process received signal ***
+[rb-hpc-b44n11:171596] Signal: Aborted (6)
+[rb-hpc-b44n11:171596] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23918] *** Process received signal ***
+[rb-hpc-b44n10:23918] Signal: Aborted (6)
+[rb-hpc-b44n10:23918] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23918] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23918] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23918] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23918] [ 3] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136243] *** Process received signal ***
+[rb-hpc-b44n14:136243] Signal: Aborted (6)
+[rb-hpc-b44n14:136243] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171597] *** Process received signal ***
+[rb-hpc-b44n11:171597] Signal: Aborted (6)
+[rb-hpc-b44n11:171597] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74113] *** Process received signal ***
+[rb-hpc-b44n05:74113] Signal: Aborted (6)
+[rb-hpc-b44n05:74113] Associated errno: Unknown error 1041326999 (1041326999)
+[rb-hpc-b44n05:74113] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23920] *** Process received signal ***
+[rb-hpc-b44n10:23920] Signal: Aborted (6)
+[rb-hpc-b44n10:23920] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23920] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23920] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23920] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23920] [ 3] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136244] *** Process received signal ***
+[rb-hpc-b44n14:136244] Signal: Aborted (6)
+[rb-hpc-b44n14:136244] Signal code: User function (kill, sigsend, abort, etc.) (0)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171598] *** Process received signal ***
+[rb-hpc-b44n11:171598] Signal: Aborted (6)
+[rb-hpc-b44n11:171598] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n10:23928] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23928] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23928] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23928] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23928] [ 4] terminate called after throwing an instance of 'terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171599] *** Process received signal ***
+[rb-hpc-b44n11:171599] Signal: Aborted (6)
+[rb-hpc-b44n11:171599] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n05:74113] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n05:74113] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n05:74113] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n05:74113] [ 3] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n10:23922] *** Process received signal ***
+[rb-hpc-b44n10:23922] Signal: Aborted (6)
+[rb-hpc-b44n10:23922] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23922] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23922] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23922] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23922] [ 3] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136246] *** Process received signal ***
+[rb-hpc-b44n14:136246] Signal: Aborted (6)
+[rb-hpc-b44n14:136246] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n14:136246] [ 0] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n11:171600] *** Process received signal ***
+[rb-hpc-b44n11:171600] Signal: Aborted (6)
+[rb-hpc-b44n11:171600] Signal code: User function (kill, sigsend, abort, etc.) (0)
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n05:74113] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n05:74113] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n05:74113] [ 6] [rb-hpc-b44n10:23921] *** Process received signal ***
+[rb-hpc-b44n10:23921] Signal: Aborted (6)
+[rb-hpc-b44n10:23921] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23921] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23921] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23921] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23921] [ 3] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n14:136247] *** Process received signal ***
+[rb-hpc-b44n14:136247] Signal: Aborted (6)
+[rb-hpc-b44n14:136247] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n11:171599] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171599] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171599] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171599] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171599] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171599] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n05:74113] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n05:74113] [ 8] [rb-hpc-b44n10:23923] Signal: Aborted (6)
+[rb-hpc-b44n10:23923] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23923] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23923] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23923] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23923] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23923] [ 4] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136246] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136246] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136246] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136246] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136246] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136246] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136246] [ 7] [rb-hpc-b44n11:171586] *** Process received signal ***
+[rb-hpc-b44n11:171586] Signal: Aborted (6)
+[rb-hpc-b44n11:171586] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n11:171586] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171586] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171586] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171586] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171586] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171586] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n05:74113] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n05:74113] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n05:74113] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n05:74113] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n05:74113] [13] [rb-hpc-b44n10:23924] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23924] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23924] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23924] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23924] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23924] [ 5] [rb-hpc-b44n14:136232] *** Process received signal ***
+[rb-hpc-b44n14:136232] Signal: Aborted (6)
+[rb-hpc-b44n14:136232] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n14:136232] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136232] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136232] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136232] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136232] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136232] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136232] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136232] [ 7] [rb-hpc-b44n11:171588] Signal: Aborted (6)
+[rb-hpc-b44n11:171588] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n11:171588] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171588] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171588] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171588] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171588] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171588] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171588] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n05:74113] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n05:74113] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n05:74113] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n05:74113] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23925] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23925] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23925] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23925] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23925] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23925] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136234] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136234] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136234] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136234] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136234] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136234] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136234] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136234] [ 7] [rb-hpc-b44n11:171589] *** Process received signal ***
+[rb-hpc-b44n11:171589] Signal: Aborted (6)
+[rb-hpc-b44n11:171589] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n11:171589] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171589] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171589] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171589] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171589] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171589] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171589] [ 6] [rb-hpc-b44n05:74113] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n05:74113] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n05:74113] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n05:74113] [21] [rb-hpc-b44n10:23927] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23927] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23927] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23927] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23927] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23927] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23927] [ 6] [rb-hpc-b44n14:136235] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136235] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136235] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136235] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136235] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136235] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136235] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136235] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136235] [ 8] [rb-hpc-b44n11:171590] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171590] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171590] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171590] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171590] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171590] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171590] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171590] [ 7] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n05:74113] *** End of error message ***
+[rb-hpc-b44n10:23929] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n10:23929] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n10:23929] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23929] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23929] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23929] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23929] [ 6] [rb-hpc-b44n14:136236] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136236] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136236] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136236] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136236] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136236] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136236] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136236] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136236] [ 8] [rb-hpc-b44n11:171591] Signal: Aborted (6)
+[rb-hpc-b44n11:171591] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n11:171591] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171591] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171591] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171591] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171591] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171591] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171591] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171591] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23927] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23927] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23927] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23927] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23927] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23927] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23927] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23927] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136238] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136238] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136238] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136238] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136238] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136238] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136238] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136238] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136238] [ 8] [rb-hpc-b44n11:171592] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171592] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171592] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171592] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171592] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171592] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171592] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171592] [ 7] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23912] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23912] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23912] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23912] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23912] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23912] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23912] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23912] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23912] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23912] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23912] [13] [rb-hpc-b44n14:136239] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136239] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136239] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136239] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136239] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136239] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136239] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136239] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136239] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136239] [ 9] [rb-hpc-b44n11:171593] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171593] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171593] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171593] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171593] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171593] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171593] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171593] [ 7] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23915] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23915] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23915] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23915] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23915] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23915] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23915] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23915] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23915] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23915] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23915] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23915] [rb-hpc-b44n14:136240] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136240] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136240] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136240] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136240] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136240] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136240] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136240] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136240] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136240] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136240] [10] [rb-hpc-b44n11:171594] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171594] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171594] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171594] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171594] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171594] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171594] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171594] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171594] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n10:23917] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23917] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23917] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23917] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23917] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23917] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23917] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23917] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23917] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23917] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23917] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23917] [14] [rb-hpc-b44n14:136241] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136241] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136241] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136241] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136241] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136241] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136241] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136241] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136241] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136241] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136241] [10] [rb-hpc-b44n11:171596] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171596] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171596] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171596] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171596] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171596] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171596] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171596] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171596] [ 8] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23918] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23918] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23918] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23918] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23918] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23918] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23918] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23918] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23918] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23918] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23918] [14] [rb-hpc-b44n14:136242] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136242] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136242] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136242] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136242] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136242] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136242] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136242] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136242] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136242] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136242] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136242] [11] [rb-hpc-b44n11:171597] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171597] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171597] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171597] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171597] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171597] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171597] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171597] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171597] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23920] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23920] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23920] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23920] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23920] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23920] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23920] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23920] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23920] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23920] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23920] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23920] [15] [rb-hpc-b44n14:136243] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136243] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136243] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136243] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136243] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136243] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136243] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136243] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136243] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136243] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136243] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136243] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136243] [12] [rb-hpc-b44n11:171598] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171598] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171598] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171598] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171598] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171598] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171598] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171598] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171598] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171598] [ 9] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23928] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23928] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23928] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23928] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23928] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23928] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23928] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23928] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23928] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23928] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23928] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23928] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23928] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136244] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136244] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136244] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136244] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136244] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136244] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136244] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136244] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136244] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136244] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136244] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136244] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136244] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136244] [13] [rb-hpc-b44n11:171600] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n11:171600] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171600] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171600] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171600] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171600] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171600] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171600] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171600] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171600] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171600] [10] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23922] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23922] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23922] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23922] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23922] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23922] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23922] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23922] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23922] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23922] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23922] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23922] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23922] [16] [rb-hpc-b44n14:136247] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n14:136247] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n14:136247] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n14:136247] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n14:136247] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n14:136247] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n14:136247] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n14:136247] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136247] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136247] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136247] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136247] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136247] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136247] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171598] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171598] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171598] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171598] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171598] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171598] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171598] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171598] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171598] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171598] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171598] [20] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n10:23921] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23921] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23921] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23921] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23921] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23921] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23921] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23921] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23921] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23921] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23921] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23921] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136244] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136244] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136244] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136244] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136244] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136244] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136244] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136244] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136244] *** End of error message ***
+[rb-hpc-b44n11:171599] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171599] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171599] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171599] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171599] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171599] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171599] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171599] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171599] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171599] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171599] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171599] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171599] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171599] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171599] [20] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n10:23923] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23923] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23923] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23923] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23923] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23923] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23923] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23923] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23923] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23923] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23923] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23923] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23923] [17] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136246] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136246] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136246] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136246] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136246] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136246] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136246] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136246] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136246] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136246] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136246] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136246] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136246] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136246] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136246] *** End of error message ***
+[rb-hpc-b44n11:171586] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171586] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171586] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171586] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171586] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171586] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171586] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171586] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171586] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171586] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171586] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171586] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171586] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171586] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171586] [20] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n10:23924] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23924] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23924] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23924] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23924] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23924] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23924] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23924] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23924] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23924] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23924] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23924] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23924] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23924] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23924] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136232] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136232] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136232] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136232] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136232] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136232] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136232] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136232] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136232] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136232] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136232] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136232] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136232] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136232] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136232] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171588] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171588] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171588] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171588] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171588] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171588] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171588] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171588] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171588] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171588] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171588] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171588] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171588] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171588] [20] terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128837] *** Process received signal ***
+[rb-hpc-b44n22:128837] Signal: Aborted (6)
+[rb-hpc-b44n22:128837] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23925] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23925] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23925] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23925] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23925] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23925] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23925] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23925] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23925] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23925] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23925] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23925] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23925] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23925] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23925] [20] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n14:136234] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136234] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136234] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136234] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136234] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136234] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136234] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136234] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136234] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136234] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136234] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136234] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136234] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136234] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136234] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171589] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171589] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171589] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171589] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171589] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171589] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171589] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171589] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171589] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171589] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171589] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171589] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171589] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171589] [20] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n10:23929] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n10:23929] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n10:23929] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n10:23929] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n10:23929] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n10:23929] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n10:23929] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23929] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23929] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23929] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23929] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23929] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23929] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23929] [20] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136235] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136235] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136235] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136235] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136235] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136235] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136235] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136235] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136235] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136235] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136235] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136235] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136235] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136235] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171590] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171590] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171590] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171590] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171590] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171590] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171590] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171590] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171590] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171590] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171590] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171590] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171590] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171590] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23925] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23925] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136236] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136236] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136236] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136236] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136236] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136236] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136236] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136236] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136236] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136236] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136236] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136236] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136236] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136236] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171591] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171591] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171591] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171591] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171591] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171591] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171591] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171591] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171591] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171591] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171591] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171591] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171591] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171591] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171591] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128839] *** Process received signal ***
+[rb-hpc-b44n22:128839] Signal: Aborted (6)
+[rb-hpc-b44n22:128839] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23927] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23927] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23927] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23927] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23927] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23927] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23927] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23927] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n14:136238] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136238] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136238] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136238] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136238] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136238] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136238] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136238] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136238] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136238] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136238] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136238] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136238] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136238] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171592] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171592] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171592] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171592] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171592] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171592] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171592] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171592] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171592] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171592] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171592] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171592] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171592] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171592] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171592] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128840] *** Process received signal ***
+[rb-hpc-b44n22:128840] Signal: Aborted (6)
+[rb-hpc-b44n22:128840] Signal code:  (-1420377720)
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n10:23912] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23912] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23912] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23912] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23912] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23912] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23912] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23912] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23912] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n14:136239] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136239] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136239] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136239] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136239] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136239] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136239] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136239] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136239] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136239] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136239] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136239] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136239] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171593] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171593] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171593] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171593] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171593] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171593] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171593] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171593] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171593] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171593] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171593] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171593] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171593] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171593] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171593] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128841] *** Process received signal ***
+[rb-hpc-b44n22:128841] Signal: Aborted (6)
+[rb-hpc-b44n22:128841] Signal code:  (-1420377720)
+[14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23915] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23915] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23915] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23915] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23915] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23915] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23915] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23915] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136240] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136240] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136240] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136240] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136240] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136240] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136240] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136240] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136240] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136240] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136240] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136240] *** End of error message ***
+[ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171594] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171594] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171594] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171594] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171594] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171594] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171594] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171594] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171594] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171594] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171594] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171594] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171594] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171594] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128842] *** Process received signal ***
+[rb-hpc-b44n22:128842] Signal: Aborted (6)
+[rb-hpc-b44n22:128842] Signal code:  (-1420377720)
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23917] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23917] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23917] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23917] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23917] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23917] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23917] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23917] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n14:136241] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136241] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136241] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136241] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136241] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136241] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136241] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136241] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136241] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136241] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136241] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136241] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171596] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171596] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171596] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171596] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171596] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171596] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171596] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171596] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171596] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171596] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171596] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171596] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171596] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171596] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128843] *** Process received signal ***
+[rb-hpc-b44n22:128843] Signal: Aborted (6)
+[rb-hpc-b44n22:128843] Signal code:  (-1420377720)
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n10:23918] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23918] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23918] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23918] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23918] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23918] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23918] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23918] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n14:136242] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136242] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136242] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136242] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136242] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136242] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136242] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136242] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136242] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136242] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136242] *** End of error message ***
+[rb-hpc-b44n11:171597] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171597] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171597] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171597] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171597] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171597] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171597] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171597] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171597] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171597] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171597] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171597] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171597] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171597] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128844] *** Process received signal ***
+[rb-hpc-b44n22:128844] Signal: Aborted (6)
+[rb-hpc-b44n22:128844] Signal code:  (-1420377720)
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23920] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23920] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23920] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23920] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23920] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23920] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23920] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n14:136243] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136243] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136243] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136243] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136243] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136243] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136243] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136243] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136243] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136243] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171600] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171600] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171600] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171600] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171600] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171600] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171600] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171600] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171600] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171600] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171600] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171600] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128845] *** Process received signal ***
+[rb-hpc-b44n22:128845] Signal: Aborted (6)
+[rb-hpc-b44n22:128845] Signal code:  (-1420377720)
+[rb-hpc-b44n10:23928] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23928] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23928] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23928] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23928] *** End of error message ***
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n14:136247] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n14:136247] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n14:136247] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n14:136247] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n14:136247] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n14:136247] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n14:136247] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n14:136247] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n14:136247] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171598] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171598] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128846] *** Process received signal ***
+[rb-hpc-b44n22:128846] Signal: Aborted (6)
+[rb-hpc-b44n22:128846] Signal code:  (-1420377720)
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23922] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23922] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23922] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23922] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23922] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23922] *** End of error message ***
+std::out_of_range/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171599] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171599] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128847] *** Process received signal ***
+[rb-hpc-b44n22:128847] Signal: Aborted (6)
+[rb-hpc-b44n22:128847] Signal code:  (-1420377720)
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n10:23921] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n10:23921] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23921] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23921] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23921] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23921] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23921] *** End of error message ***
+'
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171586] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171586] *** End of error message ***
+terminate called after throwing an instance of '/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n10:23923] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n10:23923] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n10:23923] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23923] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23923] *** End of error message ***
+  what():  /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171588] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171588] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128835] *** Process received signal ***
+[rb-hpc-b44n22:128835] Signal: Aborted (6)
+[rb-hpc-b44n22:128835] Signal code:  (-1420377720)
+[rb-hpc-b44n22:128835] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128835] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128835] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128835] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128835] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128835] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128835] [ 6] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23924] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23924] *** End of error message ***
+vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171589] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171589] *** End of error message ***
+[rb-hpc-b44n22:128847] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128847] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128847] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128847] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128847] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128847] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128847] [ 6] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n10:23929] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n10:23929] *** End of error message ***
+
+[21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171590] *** End of error message ***
+[rb-hpc-b44n22:128836] *** Process received signal ***
+[rb-hpc-b44n22:128836] Signal: Aborted (6)
+[rb-hpc-b44n22:128836] Signal code:  (-1420377720)
+[rb-hpc-b44n22:128836] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128836] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128836] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128836] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128836] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128836] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128836] [ 6] std::out_of_range[rb-hpc-b44n14:136245] *** Process received signal ***
+std::out_of_rangeterminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+[rb-hpc-b44n22:128838] *** Process received signal ***
+[rb-hpc-b44n22:128838] Signal: Aborted (6)
+[rb-hpc-b44n22:128838] Signal code:  (-1420377720)
+[rb-hpc-b44n22:128838] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128838] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128838] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128838] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128838] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128838] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128838] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128838] [ 7] '
+[rb-hpc-b44n14:136245] Signal: Aborted (6)
+[rb-hpc-b44n14:136245] Signal code: User function (kill, sigsend, abort, etc.) (0)
+'
+[rb-hpc-b44n22:128837] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128837] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128837] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128837] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128837] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128837] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128837] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128837] [ 7]   what():  [rb-hpc-b44n14:136245]   what():  [rb-hpc-b44n22:128839] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128839] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128839] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128839] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128839] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128839] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128839] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128839] [ 7] vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)[ 0] vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)[rb-hpc-b44n22:128840] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128840] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128840] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128840] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128840] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128840] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128840] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128840] [ 7] 
+/lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+
+[rb-hpc-b44n22:128841] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128841] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128841] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128841] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128841] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128841] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128841] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128841] [ 7] [rb-hpc-b44n10:23926] *** Process received signal ***
+[rb-hpc-b44n14:136245] [rb-hpc-b44n11:171595] *** Process received signal ***
+[rb-hpc-b44n22:128842] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128842] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128842] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128842] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128842] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128842] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128842] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128842] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128842] [ 8] [rb-hpc-b44n10:23926] Signal: Aborted (6)
+[rb-hpc-b44n10:23926] Signal code:  (-1420377720)
+[ 1] [rb-hpc-b44n11:171595] Signal: Aborted (6)
+[rb-hpc-b44n11:171595] Signal code: User function (kill, sigsend, abort, etc.) (0)
+[rb-hpc-b44n22:128843] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128843] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128843] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128843] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128843] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128843] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128843] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128843] [ 7] [rb-hpc-b44n10:23926] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n11:171595] [rb-hpc-b44n22:128844] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128844] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128844] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128844] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128844] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128844] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128844] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128844] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128844] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128844] [ 9] [ 0] [rb-hpc-b44n14:136245] [ 0] [rb-hpc-b44n22:128845] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128845] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128845] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128845] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128845] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128845] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128845] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128845] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128845] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128845] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128845] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+/lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[ 2] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128846] [ 0] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+[rb-hpc-b44n22:128846] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[rb-hpc-b44n22:128846] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n22:128846] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n22:128846] [ 4] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128846] [ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n22:128846] [ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128846] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128846] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128846] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128846] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128846] [11] [rb-hpc-b44n10:23926] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[rb-hpc-b44n11:171595] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128835] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128835] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128835] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128835] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128835] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128835] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128835] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128835] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128835] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128835] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128835] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128835] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128835] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128835] [20] [ 1] [rb-hpc-b44n14:136245] [ 1] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128847] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128847] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128847] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128847] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128847] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128847] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128847] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128847] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128847] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128847] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128847] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128847] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128847] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128847] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128847] [21] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+[ 3] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128836] [ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128836] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128836] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128836] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128836] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128836] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128836] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128836] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128836] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128836] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128836] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128836] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128836] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128836] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128836] [rb-hpc-b44n10:23926] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[rb-hpc-b44n11:171595] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128838] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128838] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128838] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128838] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128838] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128838] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128838] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128838] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128838] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128838] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128838] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128838] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128838] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128838] [21] [ 2] [rb-hpc-b44n14:136245] [ 2] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128837] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128837] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128837] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128837] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128837] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128837] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128837] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128837] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128837] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128837] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128837] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128837] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128837] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128837] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+/lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+[ 4] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128839] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128839] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128839] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128839] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128839] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128839] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128839] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128839] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128839] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128839] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128839] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128839] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128839] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128839] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128839] *** End of error message ***
+[rb-hpc-b44n10:23926] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n11:171595] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128840] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128840] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128840] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128840] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128840] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128840] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128840] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128840] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128840] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128840] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128840] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128840] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128840] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128840] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128840] *** End of error message ***
+[ 3] [rb-hpc-b44n14:136245] [ 3] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128841] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128841] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128841] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128841] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128841] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128841] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128841] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128841] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128841] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128841] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128841] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128841] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128841] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128841] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128841] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+[ 5] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128842] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128842] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128842] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128842] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128842] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128842] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128842] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128842] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128842] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128842] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128842] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128842] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128842] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128842] *** End of error message ***
+[rb-hpc-b44n10:23926] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[rb-hpc-b44n11:171595] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n22:128843] [ 8] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n22:128843] [ 9] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128843] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128843] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128843] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128843] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128843] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128843] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128843] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128843] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128843] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128843] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128843] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128843] [21] [ 4] [rb-hpc-b44n14:136245] [ 4] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128844] [10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128844] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128844] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128844] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128844] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128844] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128844] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128844] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128844] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128844] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128844] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128844] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128844] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[ 6] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+[rb-hpc-b44n22:128845] [11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128845] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128845] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128845] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128845] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128845] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128845] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128845] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128845] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128845] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128845] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128845] *** End of error message ***
+[rb-hpc-b44n10:23926] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n11:171595] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128846] [12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128846] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128846] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128846] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128846] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128846] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128846] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128846] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128846] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128846] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128846] *** End of error message ***
+[ 5] [rb-hpc-b44n14:136245] [ 5] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128835] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128835] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+[ 7] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128847] *** End of error message ***
+[rb-hpc-b44n10:23926] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[rb-hpc-b44n11:171595] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128836] *** End of error message ***
+[ 6] [rb-hpc-b44n14:136245] [ 6] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128838] *** End of error message ***
+/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[ 8] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+[rb-hpc-b44n22:128837] *** End of error message ***
+[rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[rb-hpc-b44n11:171595] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128843] *** End of error message ***
+[ 7] [rb-hpc-b44n14:136245] [ 7] std::out_of_range/share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+[ 9] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+'
+[rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n11:171595]   what():  [ 8] [rb-hpc-b44n14:136245] [ 8] vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+[10] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+
+[rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n11:171595] [rb-hpc-b44n22:128848] *** Process received signal ***
+[ 9] [rb-hpc-b44n14:136245] [ 9] [rb-hpc-b44n22:128848] Signal: Aborted (6)
+[rb-hpc-b44n22:128848] Signal code:  (-1420377720)
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[11] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n11:171595] [ 0] [10] [rb-hpc-b44n14:136245] [10] /lib64/libc.so.6(+0x36400)[0x2aaaabce0400]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n11:171595] [ 1] [11] [rb-hpc-b44n14:136245] [11] /lib64/libc.so.6(gsignal+0x37)[0x2aaaabce0387]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n11:171595] [ 2] [12] [rb-hpc-b44n14:136245] [12] /lib64/libc.so.6(abort+0x148)[0x2aaaabce1a78]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n11:171595] [ 3] [13] [rb-hpc-b44n14:136245] [13] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaaab276b2d]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n11:171595] [ 4] [14] [rb-hpc-b44n14:136245] [14] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cb76)[0x2aaaab274b76]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n11:171595] [ 5] [15] [rb-hpc-b44n14:136245] [15] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cbc1)[0x2aaaab274bc1]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n11:171595] [ 6] [16] [rb-hpc-b44n14:136245] [16] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(+0x8cdd8)[0x2aaaab274dd8]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n11:171595] [ 7] [17] [rb-hpc-b44n14:136245] [17] /share/hpc_apps/gcc/5.3.0/redhatel6/lib64/libstdc++.so.6(_ZSt24__throw_out_of_range_fmtPKcz+0xed)[0x2aaaab2a182d]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n11:171595] [ 8] [18] [rb-hpc-b44n14:136245] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8685c4]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[20] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n11:171595] [ 9] [19] [rb-hpc-b44n14:136245] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x8686a1]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n11:171595] [10] [20] [rb-hpc-b44n14:136245] *** End of error message ***
+[20] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x696183]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] [rb-hpc-b44n11:171595] [11] [21] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x69cd81]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128848] [rb-hpc-b44n10:23926] *** End of error message ***
+[rb-hpc-b44n11:171595] *** End of error message ***
+[12] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x6a0c8a]
+[rb-hpc-b44n22:128848] [13] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x583d0f]
+[rb-hpc-b44n22:128848] [14] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x584291]
+[rb-hpc-b44n22:128848] [15] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x5850d6]
+[rb-hpc-b44n22:128848] [16] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x454e95]
+[rb-hpc-b44n22:128848] [17] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x465614]
+[rb-hpc-b44n22:128848] [18] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x46b14f]
+[rb-hpc-b44n22:128848] [19] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x41c1d2]
+[rb-hpc-b44n22:128848] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaaabccc555]
+[rb-hpc-b44n22:128848] [21] /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD[0x426227]
+[rb-hpc-b44n22:128848] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 13 with PID 0 on node rb-hpc-b44n05 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------

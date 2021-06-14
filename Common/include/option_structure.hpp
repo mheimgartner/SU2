@@ -652,12 +652,14 @@ enum class DIFFUSIVITYMODEL {
   CONSTANT_DIFFUSIVITY, /*!< \brief Constant mass diffusivity for scalar transport. */
   CONSTANT_SCHMIDT,     /*!< \brief Constant Schmidt number for mass diffusion in scalar transport. */
   FLAMELET,             /*!< \brief flamelet model */
+  UNITY_LEWIS,             /*!< \brief Unity Lewis model */
 };
 
 static const MapType<string, DIFFUSIVITYMODEL> DiffusivityModel_Map = {
   MakePair("CONSTANT_DIFFUSIVITY", DIFFUSIVITYMODEL::CONSTANT_DIFFUSIVITY)
   MakePair("CONSTANT_SCHMIDT", DIFFUSIVITYMODEL::CONSTANT_SCHMIDT)
   MakePair("FLAMELET", DIFFUSIVITYMODEL::FLAMELET)
+  MakePair("UNITY_LEWIS", DIFFUSIVITYMODEL::UNITY_LEWIS)
 };
 
 /*!

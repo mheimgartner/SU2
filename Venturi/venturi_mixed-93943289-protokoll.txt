@@ -1,0 +1,80 @@
+LSF job ID: 93943289
+Job start: Thu Jun  3 21:17:51 CEST 2021
+on: rb-hpc-b07n02
+distributed to: 
+   host : rb-hpc-b07n02
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b07n31
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b07n36
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b04n35
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b04n13
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b01n03
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b01n28
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b01n19
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b01n16
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+   host : rb-hpc-b03n32
+        cpus: 14
+        kernel: 3.10.0-1160.21.1.el7.x86_64
+        cpu-type:  AMD EPYC 7402 24-Core Processor
+
+Job was submitted like this:
+/share/hpc_apps/bin/subbin -j venturi_mixed -n 140 -N 14 -m 1G -r 01:30 -M ompi,3.1.6-gnu-5.3.0 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD turbulentpipe.cfg
+
+Application commands:
+/share/hpc_apps/bin/mpirun --leave-session-attached -x LD_LIBRARY_PATH -np $SCSUB_NCPUS /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD  turbulentpipe.cfg
+SCSUB_APPL_RC=$?
+
+JOB SUMMARY:
+=============================================================================
+NAME				= venturi_mixed
+ID				= 93943289
+WORKING_DIRECTORY		= /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi
+APPLICATION_EXIT_CODE		= 139
+QUEUE				= rb_regular
+START_TIME			= Thu Jun 3 21:17:45 2021
+END_TIME			= Thu Jun 3 21:18:43 2021
+TOTAL_MAXIMUM_MEMORY_USED	=  2.1 Gbytes
+TOTAL_AVERAGE_MEMORY_USED	=  1.2 Gbytes
+TOTAL_MEMORY_REQUESTED		= 143360.00 MB
+DELTA_MEMORY			= 141128.00 MB
+NCPUS				= 140
+CPU_TIME			= 2891.00 sec.
+RUN_TIME			= 51 sec.
+TURNAROUND_TIME			= 82 sec.
+REQUESTED_RUNTIME               =  90.0 min (5400.0 sec.) 
+STDOUT_FILE			= /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi/venturi_mixed.o93943289
+STDERR_FILE			= /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi/venturi_mixed.e93943289
+=============================================================================
+
+JOB REQUEST PERFORMANCE:
+=============================================================================
+RUNTIME_REQUEST_QUALITY         = 5 (poor) [used 0% of requested resources]
+MEMORY_REQUEST_QUALITY          = 5 (poor) [used 1% of requested resources]
+=============================================================================
+

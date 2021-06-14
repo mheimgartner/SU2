@@ -144,7 +144,7 @@ unsigned long CFluidFlamelet::SetTDState_T(su2double val_temperature, su2double 
   // we could check for the existence of molar_weight_mix in the lookup table, and else we just use gamma
   // default value is 1.4
   Cv = Cp/1.4;
-  //Cv = Cp - UNIVERSAL_GAS_CONSTANT / (molar_weight_mix / 1000.);
+  // Cv = Cp - UNIVERSAL_GAS_CONSTANT / (molar_weight_mix / 1000.);
   return exit_code;
 }
 

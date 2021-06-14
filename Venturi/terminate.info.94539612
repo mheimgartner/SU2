@@ -1,0 +1,27 @@
+13.06.2021 15:19:58 119234@rb-hpc-b45n11: /gpfs3/applications/lsf/10.1.0/s+c/lsf_terminator.sh terminate
+13.06.2021 15:20:06 119234@rb-hpc-b45n11: ACTION = terminate
+13.06.2021 15:20:06 119234@rb-hpc-b45n11: STAGE = INIT
+13.06.2021 15:20:06 119234@rb-hpc-b45n11: No maching scsub termscript found.
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: Send SIGTERM to following processes
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117434 /bin/sh /home/hem1dev/.lsbatch/1623590213.94539612
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117438 /bin/sh /home/hem1dev/.lsbatch/1623590213.94539612.shell
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117621 sh -c . \/share\/hpc_apps\/\/CDTNG\/0\.ignore_warning\.env\.sh && . \/share\/hpc_apps\/\/CDTNG\/2log\.env\.sh && . \/share\/hpc_apps\/\/openmpi\/CDTNG\/lsf\.env\.sh && . \/share\/hpc_apps\/\/openmpi\/3\.1\.6\/gnu\/5\.3\.0\/CDTNG\/ompi\.env\.sh && \/share\/hpc_apps\/openmpi\/3\.1\.6\/gnu\/5\.3\.0\/bin\/mpirun '--leave-session-attached' '-x' 'LD_LIBRARY_PATH' '-np' '70' '/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD' 'config_c6_cms_venturi.cfg'
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117661 /share/hpc_apps/openmpi/3.1.6/gnu/5.3.0/bin/mpirun --leave-session-attached -x LD_LIBRARY_PATH -np 70 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117682 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117683 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117685 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117686 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117687 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117688 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117689 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117690 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117692 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117693 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117694 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117695 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117696 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: 117697 /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD config_c6_cms_venturi.cfg
+13.06.2021 15:20:07 119234@rb-hpc-b45n11:
+13.06.2021 15:20:07 119234@rb-hpc-b45n11: STAGE = SIGTERM
+13.06.2021 15:20:47 119234@rb-hpc-b45n11: STAGE = SIGTERM
+13.06.2021 15:20:47 119234@rb-hpc-b45n11: STAGE = READY
