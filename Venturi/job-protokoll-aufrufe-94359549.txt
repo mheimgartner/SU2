@@ -1,0 +1,3 @@
+Application commands:
+/share/hpc_apps/bin/mpirun --leave-session-attached -x LD_LIBRARY_PATH -np $SCSUB_NCPUS /home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin/SU2_CFD  config_c6_cms_venturi.cfg
+SCSUB_APPL_RC=$?
