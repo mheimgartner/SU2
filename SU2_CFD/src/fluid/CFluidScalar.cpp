@@ -43,8 +43,8 @@ CFluidScalar::CFluidScalar(CConfig *config, su2double value_pressure_operating) 
     specificHeat.at(iVar) = config->GetSpecific_Heat_Cp(iVar); 
   }
 
-  wilke = true;
-  davidson = false;
+  wilke = false;
+  davidson = true;
 
   Pressure = value_pressure_operating;
   Gas_Constant = config->GetGas_Constant();
@@ -59,6 +59,7 @@ std::vector<su2double> CFluidScalar::massToMoleFractions(su2double* val_scalars)
   su2double mixtureMolarMass = 0.0; 
   su2double mixtureFractionDenumerator = 0.0; 
   
+  // change if val_scalars becomes array of scalar su2double* 
   massFractions.at(0) = val_scalars[0];
   massFractions.at(1) = 1 - val_scalars[0]; 
 
@@ -252,11 +253,13 @@ unsigned long CFluidScalar::SetTDState_T(su2double val_temperature, su2double *v
   //val_scalars moet eigenlijk een pointer array zijn die de massafracties van alle species bevat.
   //dus voor 3 species: 1e array element species 1, 2e array element species 2, 3e array element species 3 = 1 - Yspecies 1 - Yspecies 2
   // bovenste is niet handig. val_scalars moet een pointer array zijn met de massafracties van alle species dus niet N-1.  
-  su2double MeanMolecularWeight = 1/(val_scalars[0]/(molarMasses[0]/1000) + (1-val_scalars[0])/(molarMasses[1]/1000)); 
+  MeanMolecularWeight = 1/(val_scalars[0]/(molarMasses[0]/1000) + (1-val_scalars[0])/(molarMasses[1]/1000)); 
+  // FluidModel->SetMeanMolecularWeight(val_scalars); 
    
   // Cp = specificHeat[0] * val_scalars[0] + specificHeat[1] * (1- val_scalars[0]); 
-  Cp = 1000 * val_scalars[0] + 1005 * (1- val_scalars[0]); 
-  Cv = Cp; 
+  // Cp = 1000 * val_scalars[0] + 1005 * (1- val_scalars[0]);  
+  Cp = 1009.39; 
+  Cv = Cp/1.4; 
   Temperature = val_temperature;
   Density = Pressure / ((Temperature * UNIVERSAL_GAS_CONSTANT) / MeanMolecularWeight);
 

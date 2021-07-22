@@ -3678,32 +3678,37 @@ void CConfig::SetPostprocessing(SU2_COMPONENT val_software, unsigned short val_i
     }
   }
 
-  if(Mu_Constant == nullptr){
+  if (Molecular_Weight == nullptr){
+    Molecular_Weight = new su2double[1];
+    Molecular_Weight[0] = 28.96; 
+  }
+
+  if (Mu_Constant == nullptr){
     Mu_Constant = new su2double[1];
     Mu_Constant[0] = 1.716E-5; 
   }
 
-  if(Specific_Heat_Cp == nullptr){
+  if (Specific_Heat_Cp == nullptr){
     Specific_Heat_Cp = new su2double[1];
     Specific_Heat_Cp[0] = 1004.703; 
   }
 
-  if(Kt_Constant == nullptr){
+  if (Kt_Constant == nullptr){
     Kt_Constant = new su2double[1];
     Kt_Constant[0] = 2.57E-2; 
   }
 
-  if(Prandtl_Turb == nullptr){
+  if (Prandtl_Turb == nullptr){
     Prandtl_Turb = new su2double[1];
     Prandtl_Turb[0] = 0.9; 
   }
 
-  if(Prandtl_Lam == nullptr){
+  if (Prandtl_Lam == nullptr){
     Prandtl_Lam = new su2double[1];
     Prandtl_Lam[0] = 0.72; 
   }
 
-  if(Mu_Ref == nullptr && Mu_Temperature_Ref == nullptr && Mu_S == nullptr){
+  if (Mu_Ref == nullptr && Mu_Temperature_Ref == nullptr && Mu_S == nullptr){
     Mu_Ref = new su2double[1];
     Mu_Temperature_Ref = new su2double[1]; 
     Mu_S = new su2double[1];

@@ -82,7 +82,7 @@ protected:
   Thermal_Diffusivity_i,     /*!< \brief Thermal diffusivity at point i. */
   Thermal_Diffusivity_j;     /*!< \brief Thermal diffusivity at point j. */
   su2double
-  SpecificHeat_i, /*!< \brief Specific heat c_p at point j. */
+  SpecificHeat_i, /*!< \brief Specific heat c_p at point i. */
   SpecificHeat_j; /*!< \brief Specific heat c_p at point j. */
   su2double
   Cp_i,               /*!< \brief Cp at point i. */
@@ -544,6 +544,7 @@ public:
     Scalar divVel = 0.0;
     for (size_t iDim = 0; iDim < nDim; iDim++) {
       divVel += velgrad[iDim][iDim];
+      // divVel += 0; 
     }
     Scalar pTerm = 2./3. * (divVel * viscosity + density * turb_ke);
 

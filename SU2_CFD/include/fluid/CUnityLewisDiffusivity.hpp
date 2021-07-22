@@ -39,21 +39,20 @@ public:
   /*!
    * \brief Constructor of the class.
    */
-  // CUnityLewisDiffusivity() {}
-  CUnityLewisDiffusivity(su2double kt_const) : kt_(kt_const) {}
-  // CUnityLewisDiffusivity(su2double diff_const) :  diff_(diff_const){}
-  
+  CUnityLewisDiffusivity() {}
+ 
   su2double GetDiffusivity() const override {return diff_;}
 
   /*!
    * \brief Set diffusivity.
    */
-  void SetDiffusivity(su2double T, su2double rho, su2double mu_lam, su2double mu_turb, su2double cp) override { 
-    diff_ = kt_ / (Lewis * rho * cp); 
+  void SetDiffusivity(su2double T, su2double rho, su2double mu_lam, su2double mu_turb, su2double cp, su2double kt) override { 
+    diff_ = kt / (Lewis * rho * cp); // is this possible? cp is calculated with mass fracties while wilke is calculated with mole fractions?
+    // also: don't kt, rho, cp need to be constant (take values of air?) want je hebt ook geen mixture lewis getal dus je moet wel k, cp, rho pakken van elke species. 
   }
 
   private:
     su2double diff_{0.0}; 
     su2double kt_{0.0}; 
-    su2double Lewis = 1;  
+    su2double Lewis{1};  
 };

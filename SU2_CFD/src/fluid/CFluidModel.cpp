@@ -121,7 +121,7 @@ void CFluidModel::SetMassDiffusivityModel (const CConfig* config) {
       /* do nothing. Diffusivity is obtained from the table and set in setTDState_T */
       break;
     case DIFFUSIVITYMODEL::UNITY_LEWIS:
-      MassDiffusivity = unique_ptr<CUnityLewisDiffusivity>(new CUnityLewisDiffusivity(config->GetKt_ConstantND()));
+      MassDiffusivity = unique_ptr<CUnityLewisDiffusivity>(new CUnityLewisDiffusivity());
       break;
     default:
       SU2_MPI::Error("Diffusivity model not available.", CURRENT_FUNCTION);

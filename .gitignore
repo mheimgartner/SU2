@@ -1,3 +1,6 @@
+*.o*
+*.e*
+Venturi/
 # Compiled Object files
 *.slo
 *.lo

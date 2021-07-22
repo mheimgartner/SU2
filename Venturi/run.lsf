@@ -16,9 +16,9 @@ module load gnu/5.3.0
 
 # Run SU2 make
 SU2_RUN="/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/bin"
-config="config_c6_cms_venturi.cfg"
+config="config_c6_cms_venturi_conference_axisymmetric.cfg"
 
-subbin -j venturi_mixed -n 70 -N 14 -m 1G -r 00:30 -M ompi,3.1.6-gnu-5.3.0 $SU2_RUN/SU2_CFD $config
+subbin -j venturi_mixed -n 70 -N 14 -m 1G -r 1:00 -M ompi,3.1.6-gnu-5.3.0 $SU2_RUN/SU2_CFD $config
 
 ### -n 28: aantal cores
 ### -N 14: aantal cores op een node

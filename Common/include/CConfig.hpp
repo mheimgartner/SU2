@@ -1607,8 +1607,7 @@ public:
    */
   su2double GetMolecular_Weight(void) const { return Molecular_Weight[0]; }
   su2double GetMolecular_Weight (unsigned short val_index) const { return Molecular_Weight [val_index]; }
-  //const su2double *GetMolecular_Weight(void) const { return Molecular_Weight; }
-
+  
   /*!
    * \brief Get the value of specific heat at constant pressure.
    * \return Value of the constant: Cp

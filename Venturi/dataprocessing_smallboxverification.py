@@ -11,7 +11,7 @@ from paraview.simple import *
 paraview.simple._DisableFirstRenderCameraReset()
 
 # Create a new 'XMLUnstructuredGrid Reader'
-flowvtu = XMLUnstructuredGridReader(FileName='/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi/flow_verification_mixtureviscosity_smallbox_turb_wilke_00000748.vtu') 
+flowvtu = XMLUnstructuredGridReader(FileName='/home/hem1dev/Codes/SU2_Github_Mark_Test/SU2/Venturi/flow_verification_davidson_00000749.vtu') 
 
 # Get active view
 renderView1 = GetActiveViewOrCreate('RenderView')
@@ -57,8 +57,13 @@ numCells = pointdata.GetNumberOfTuples()
 #print dir(pointdata)
 
 # Allocate arrays
-LaminarViscosity = []
 YCH4 = []
+MeanMolecularWeight = []
+Density = []
+LaminarViscosity = []
+MassDiffusivity = []
+SpecificHeatCp = []
+ThermalConductivity = []
 
 #DON'T FORGET TO POSSIBLY SORT THE DATA BECAUSE WHEN YOU LOAD IN THE 30KW_NODE.CASE FILE IN PARAVIEW THE ORDER IS NOT LEXICOGRAPHIC... 
 #ALSO CHECK IF YOU CAN DIRECTLY LOAD THE OUTLET DATA INSTEAD OF USING PLOTOVERLINE 
@@ -66,9 +71,14 @@ YCH4 = []
 # Loop to retrieve variables from Paraview
 for x in range(numCells):
 	YCH4.append(pointdata.GetArray("Passive_Scalar").GetValue(x))
+	MeanMolecularWeight.append(pointdata.GetArray("Mean_Molecular_Weight").GetValue(x))
+	Density.append(pointdata.GetArray("Density").GetValue(x))
 	LaminarViscosity.append(pointdata.GetArray("Laminar_Viscosity").GetValue(x))
+	MassDiffusivity.append(pointdata.GetArray("Diffusivity").GetValue(x))
+	SpecificHeatCp.append(pointdata.GetArray("Specific_Heat_Cp").GetValue(x))
+	ThermalConductivity.append(pointdata.GetArray("Conductivity").GetValue(x))
 	
 # Write out data to .csv file to allow postprocessing in jupyter
-data_export = np.column_stack((YCH4, LaminarViscosity))
-header = "YCH4, LaminarViscosity"
-np.savetxt("mixtureviscosity_outlet_paraview_smallboxverification_wilke.csv", data_export, header = header, delimiter=",")
+data_export = np.column_stack((YCH4,MeanMolecularWeight,Density,LaminarViscosity,MassDiffusivity,SpecificHeatCp,ThermalConductivity))
+header = "YCH4,MeanMolecularWeight,Density,LaminarViscosity,MassDiffusivity,SpecificHeatCp,ThermalConductivity"
+np.savetxt("smallboxverification_davidson.csv", data_export, header = header, delimiter=",", comments='')
